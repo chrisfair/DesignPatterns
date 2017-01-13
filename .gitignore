@@ -1,0 +1,9 @@
+Ducks
+Makefile
+cmake_install.cmake
+CMakeFiles/
+build/CMakeCache.txt
+build/CMakeFiles
+build/cmake_install.cmake
+build/Ducks
+build/Makefile
