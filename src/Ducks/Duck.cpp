@@ -2,41 +2,39 @@
 
 Duck::Duck()
 {
+    quackBehavior = new QuackBehavior;
+    flyBehavior = new FlyBehavior;
 }
 
 Duck::~Duck()
 {
-
+    delete quackBehavior;
+    delete flyBehavior;
 }
-      
-bool Duck::Quack()
+
+bool Duck::PerformQuack()
 {
-    std::cout<<"Quack!\n"<<std::endl;
+    quackBehavior->quack();
     return true;
-
 }
+
+bool Duck::PerformFly()
+{
+    flyBehavior->fly();
+    return true;
+}
+
 
 bool Duck::Swim()
 {
-    std::cout<<"Splish Splash!\n"<<std::endl;
+    std::cout<<"Splish Splash!"<<std::endl;
     return true;
 }
-
-bool Duck::Fly()
-{
-    std::cout<<"The Duck is flapping furiously to climb into the sky!"<<std::endl;
-    return true;
-}
-
-
-
 
 bool Duck::Display()
 {
-
     std::cout<<"I am a nondescript duck!"<<std::endl;
     return true;
 }
-
 
 

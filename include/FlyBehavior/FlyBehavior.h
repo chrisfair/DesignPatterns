@@ -6,7 +6,8 @@
 class FlyBehavior
 {
   public:
-      virtual bool Fly();
+      virtual ~FlyBehavior();
+      virtual bool fly();
 };
 
 

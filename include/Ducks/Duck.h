@@ -2,19 +2,23 @@
 #define DUCK_H
 
 #include <iostream>
+#include "FlyBehavior.h"
+#include "QuackBehavior.h"
 
 class Duck
 {
+
+
   public:
+      FlyBehavior *flyBehavior;
+      QuackBehavior *quackBehavior;
       Duck();
       virtual ~Duck();
-      bool Quack();
+      virtual bool PerformQuack();
       bool Swim();
-      bool Fly();
+      virtual bool PerformFly();
       virtual bool Display();
-
 };
-
 
 
 #endif //DUCK_H

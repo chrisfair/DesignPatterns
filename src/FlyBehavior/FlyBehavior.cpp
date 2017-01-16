@@ -1,6 +1,14 @@
 #include "FlyBehavior.h"
 
-bool FlyBehavior::Fly()
+FlyBehavior::~FlyBehavior()
+{
+
+
+}
+
+
+
+bool FlyBehavior::fly()
 {
     std::cout<<"Fly if you can"<<std::endl;
     return true;

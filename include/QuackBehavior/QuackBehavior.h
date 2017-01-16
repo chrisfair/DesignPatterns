@@ -6,9 +6,9 @@
 class QuackBehavior
 {
   public:
-      virtual bool Quack();
+      virtual ~QuackBehavior();
+      virtual bool quack();
 };
-
 
 
 #endif //QUACK_BEHAVIOR_H

@@ -1,6 +1,12 @@
 #include "MuteQuack.h"
 
-bool MuteQuack: public QuackBehavior
+MuteQuack::~MuteQuack()
+{
+
+}
+
+
+bool MuteQuack:quack() 
 {
     std::cout<<"I cannot quack...it is sad!"::endl;
     return true;

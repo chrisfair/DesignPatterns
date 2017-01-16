@@ -5,7 +5,8 @@
 
 class RedHeadDuck : public Duck
 {
-  public: 
+  public:
+    ~RedHeadDuck();
     virtual bool Display();     
 
 };

@@ -7,7 +7,10 @@
 class Squeak: public QuackBehavior
 {
   public:
-      virtual bool Quack();
+      
+      virtual ~Squeak();
+      virtual bool quack();
+      
 };
 
 

@@ -7,7 +7,8 @@
 class Quack: public QuackBehavior
 {
   public:
-      virtual bool Quack();
+      ~Quack();      
+      bool quack();
 };
 
 

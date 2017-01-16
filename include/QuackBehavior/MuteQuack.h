@@ -7,7 +7,8 @@
 class MuteQuack: public Quack
 {
   public:
-      virtual bool Quack();
+      virtual ~MuteQuack();
+      virtual bool quack();
 };
 
 

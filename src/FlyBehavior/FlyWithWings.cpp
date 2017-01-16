@@ -1,6 +1,11 @@
 #include "FlyWithWings.h"
 
-bool FlyBehavior::Fly()
+FlyWithWings::~FlyWithWings()
+{
+}
+
+
+bool FlyWithWings::fly()
 {
     std::cout<<"Fly like a bird!"<<std::endl;
     return true;

@@ -2,6 +2,7 @@
 #include"Duck.h"
 #include"MallardDuck.h"
 #include "RedHeadDuck.h"
+
 int main(int argc, char ** argv)
 {
 
@@ -10,7 +11,7 @@ int main(int argc, char ** argv)
   RedHeadDuck myRedHeadDuck;
 
   std::cout<<"Hello Ducks!\n"<<std::endl;
-  myDuck.Quack();
+  myDuck.PerformQuack();
   myDuck.Swim();
   myDuck.Display();
 
