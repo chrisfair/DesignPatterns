@@ -2,8 +2,9 @@
 
 MallardDuck::MallardDuck()
 {
-    //quackBehavior = new Quack();
-    //flyBehavior = new FlyWithWings();
+    quackBehavior = new Quack;
+    flyBehavior = new FlyWithWings;
+
 }
 
 MallardDuck::~MallardDuck()

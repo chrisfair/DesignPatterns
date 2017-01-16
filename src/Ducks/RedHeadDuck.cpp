@@ -1,5 +1,19 @@
 #include "RedHeadDuck.h"
 
+
+RedHeadDuck::RedHeadDuck()
+{
+
+    quackBehavior = new Quack();
+    flyBehavior = new FlyWithWings();
+
+
+
+}
+
+
+
+
 RedHeadDuck::~RedHeadDuck()
 {
 

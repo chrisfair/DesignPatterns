@@ -4,7 +4,7 @@
 #include <iostream>
 #include "QuackBehavior.h"
 
-class MuteQuack: public Quack
+class MuteQuack: public QuackBehavior
 {
   public:
       virtual ~MuteQuack();

@@ -10,14 +10,19 @@ class Duck
 
 
   public:
-      FlyBehavior *flyBehavior;
-      QuackBehavior *quackBehavior;
       Duck();
       virtual ~Duck();
       virtual bool PerformQuack();
       bool Swim();
       virtual bool PerformFly();
       virtual bool Display();
+      void SetFlyBehavior(FlyBehavior *flyingBehavior);
+      void SetQuackBehavior(QuackBehavior *quackingBehavior);
+
+  protected:
+      FlyBehavior *flyBehavior;
+      QuackBehavior *quackBehavior;
+
 };
 
 

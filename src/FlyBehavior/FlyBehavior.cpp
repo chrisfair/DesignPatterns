@@ -10,7 +10,7 @@ FlyBehavior::~FlyBehavior()
 
 bool FlyBehavior::fly()
 {
-    std::cout<<"Fly if you can"<<std::endl;
+    std::cout<<"It is unknown whether this duck can or cannot fly!"<<std::endl;
     return true;
 }
 

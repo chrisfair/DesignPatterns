@@ -37,4 +37,17 @@ bool Duck::Display()
     return true;
 }
 
+void Duck::SetFlyBehavior(FlyBehavior *flyingBehavior)
+{
+    flyBehavior = flyingBehavior;
+
+}
+
+void Duck::SetQuackBehavior(QuackBehavior *quackingBehavior)
+{
+
+    quackBehavior = quackingBehavior;
+
+}
+
 
