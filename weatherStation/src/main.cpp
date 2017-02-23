@@ -1,11 +1,20 @@
 #include<iostream>
+#include "WeatherData.h"
+#include "CurrentConditionDisplay.h"
 
-int main(int argc, char ** argv)
-{
+namespace WeatherStation {
 
-  std::cout<<"Hello Weather Station!"<<std::endl;
-  return 0;
 
+  int main(int argc, char ** argv)
+  {
+
+    WeatherData weatherData = new WeatherData();
+    std::cout<<"Hello Weather Station!"<<std::endl;
+
+    return 0;
+
+  }
 
 }
+
 

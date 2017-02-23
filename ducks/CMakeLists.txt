@@ -1,4 +1,10 @@
 SET(CMAKE_CXX_FLAGS_INIT   "-Wall")
+SET(CMAKE_AR  "/usr/bin/llvm-ar")
+SET(CMAKE_LINKER   "/usr/bin/llvm-ld")
+SET(CMAKE_NM  "/usr/bin/llvm-nm")
+SET(CMAKE_CXX_COMPILER "/usr/bin/clang++")
+SET(CMAKE_C_COMPILER "/bin/clang")
+
 
 cmake_minimum_required(VERSION 2.8)
 
