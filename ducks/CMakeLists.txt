@@ -15,19 +15,19 @@ include_directories( ${CMAKE_CURRENT_SOURCE_DIR}
 
 project(Ducks)
 
-set (SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/Duck.cpp 
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/MallardDuck.cpp 
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/RedHeadDuck.cpp 
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/RubberDucky.cpp
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/ModelDuck.cpp
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyBehavior.cpp
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyNoWay.cpp
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyWithWings.cpp
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyRocketPowered.cpp
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/QuackBehavior/QuackBehavior.cpp 
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/QuackBehavior/QuackBehavior.cpp 
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/QuackBehavior/Quack.cpp 
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/QuackBehavior/Squeak.cpp 
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp ) 
+set (SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/Duck
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/MallardDuck
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/RedHeadDuck
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/RubberDucky
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/ModelDuck
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyBehavior
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyNoWay
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyWithWings
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyRocketPowered
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/QuackBehavior/QuackBehavior
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/QuackBehavior/QuackBehavior
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/QuackBehavior/Quack
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/QuackBehavior/Squeak
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/main )
 
 add_executable(Ducks ${SRC_FILES})
