@@ -1,6 +1,7 @@
 #ifndef FORCAST_DISPLAY_H
 #define FORCAST_DISPLAY_H
 
+#include <string>
 #include "DisplayElement.h"
 #include "Observer.h"
 #include "Subject.h"
@@ -23,11 +24,16 @@ namespace WeatherStation {
 
     private:
       float getAverage(std::vector<float> & vectorToAverage);
+      float getSum(std::vector<float> & vectorToAverage);
 
       std::vector<float> historicalTemperatures;
       std::vector<float> historicalHumidities;
       std::vector<float> historicalPressures;
-   
+      std::vector<float> historicalOrdinal;
+      float getSumOfTwoMultipliedTogetherVectors(std::vector<float> & firstVector, std::vector<float> & secondVector);
+      std::string getForcast();
+      float getSlopeOfLine(std::vector<float> & firstVector, std::vector<float> & secondVector);
+
       Subject * weatherData;
 
   };

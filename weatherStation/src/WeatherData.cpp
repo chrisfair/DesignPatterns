@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <vector>
 #include <list>
+#include <iostream>
 namespace WeatherStation {
 
   WeatherData::WeatherData() 
@@ -68,6 +69,7 @@ namespace WeatherStation {
     this->humidity = humidity;
     this->pressure = pressure;
     measurementsChanged();
+    std::cout<<std::endl;
   }
 
 
