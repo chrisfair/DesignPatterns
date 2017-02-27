@@ -3,7 +3,6 @@
 #include "CurrentConditionsDisplay.h"
 #include "StatisticsDisplay.h"
 #include "expat.h"
-#include <curlpp/curlpp>
 
   int main(int argc, char ** argv)
   {

@@ -18,6 +18,7 @@ project(Ducks)
 set (SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/Duck
                ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/MallardDuck
                ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/RedHeadDuck
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/GreenDuck
                ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/RubberDucky
                ${CMAKE_CURRENT_SOURCE_DIR}/src/Ducks/ModelDuck
                ${CMAKE_CURRENT_SOURCE_DIR}/src/FlyBehavior/FlyBehavior

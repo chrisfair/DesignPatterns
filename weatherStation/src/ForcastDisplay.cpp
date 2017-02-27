@@ -1,23 +1,23 @@
-#include "StatisticsDisplay.h"
+#include "ForcastDisplay.h"
 #include <iostream>
 
 namespace WeatherStation {
 
-  StatisticDisplay::StatisticDisplay(Subject * weatherData) {
+  ForcastDisplay::ForcastDisplay(Subject * weatherData) {
     this->weatherData = weatherData;
     weatherData->registerObserver(this);
 
   }
 
 
-  StatisticDisplay::~StatisticDisplay()
+  ForcastDisplay::~ForcastDisplay()
   {
 
 
   }
 
 
-  void StatisticDisplay::update(float temperature, float humidity, float pressure){
+  void ForcastDisplay::update(float temperature, float humidity, float pressure){
 
     historicalTemperatures.push_back(temperature);
     historicalHumidities.push_back(humidity);
@@ -27,7 +27,7 @@ namespace WeatherStation {
 
   }
 
-  float StatisticDisplay::getAverage(std::vector<float> & vectorToAverage)
+  float ForcastDisplay::getAverage(std::vector<float> & vectorToAverage)
   {
 
     float sumOfValues = 0;
@@ -49,7 +49,7 @@ namespace WeatherStation {
   }
 
 
-  void StatisticDisplay::display(){
+  void ForcastDisplay::display(){
 
     std::cout<<"Current average conditions: " << getAverage(historicalTemperatures) 
       << "F degrees and "

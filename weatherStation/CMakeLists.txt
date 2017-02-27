@@ -18,6 +18,7 @@ set (SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/Subject
                ${CMAKE_CURRENT_SOURCE_DIR}/src/WeatherData
                ${CMAKE_CURRENT_SOURCE_DIR}/src/CurrentConditionsDisplay
                ${CMAKE_CURRENT_SOURCE_DIR}/src/StatisticsDisplay
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/ForcastDisplay
                ${CMAKE_CURRENT_SOURCE_DIR}/src/main )
 
 add_executable(WeatherStation ${SRC_FILES})

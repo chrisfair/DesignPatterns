@@ -5,6 +5,7 @@
 #include "RubberDucky.h"
 #include "ModelDuck.h"
 #include "FlyRocketPowered.h"
+#include "GreenDuck.h"
 
 int main(int argc, char ** argv)
 {
@@ -14,6 +15,7 @@ int main(int argc, char ** argv)
   RedHeadDuck myRedHeadDuck;
   RubberDucky myRubberDucky;
   ModelDuck myModelDuck;
+  GreenDuck myGreenDuck;
 
 
   std::cout<<"Hello Ducks!"<<std::endl;
@@ -39,6 +41,12 @@ int main(int argc, char ** argv)
   myRubberDucky.Display();
   myRubberDucky.PerformFly();
   myRubberDucky.PerformQuack();
+  std::cout<<std::endl;
+
+  std::cout<<"Using the GreenDuck object"<<std::endl;
+  myGreenDuck.Display();
+  myGreenDuck.PerformFly();
+  myGreenDuck.PerformQuack();
   std::cout<<std::endl;
 
   std::cout<<"Using the myModelDuck object"<<std::endl;

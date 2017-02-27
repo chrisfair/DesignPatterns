@@ -9,18 +9,17 @@ namespace WeatherStation {
 
   }
 
-
   CurrentConditionsDisplay::~CurrentConditionsDisplay()
   {
 
 
   }
 
-
   void CurrentConditionsDisplay::update (float temperature, float humidity, float pressure){
 
     this->temperature = temperature;
     this->humidity = humidity;
+    this->pressure = pressure;
     display();
 
   }
@@ -30,9 +29,10 @@ namespace WeatherStation {
     std::cout<<"Current conditions: " << temperature 
                                       << "F degrees and "
                                       <<humidity 
-                                      << "% humidity"
+                                      << "% humidity "
+                                      <<pressure
+                                      << " pressure "
                                       <<std::endl;
-
   }
 }
 

@@ -22,6 +22,7 @@ namespace WeatherStation {
     private:
       float temperature;
       float humidity;
+      float pressure;
       Subject * weatherData;
 
   };
