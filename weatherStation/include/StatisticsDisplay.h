@@ -12,23 +12,18 @@ namespace WeatherStation {
 
 
   class StatisticDisplay : public Observer,  public DisplayElement {
-
-
-
+    
     public:
       StatisticDisplay(Subject * weatherData);
       virtual ~StatisticDisplay();
       virtual void update (float temperature, float humidity, float pressure);
       virtual void display();
-      
 
     private:
       float getAverage(std::vector<float> & vectorToAverage);
-
       std::vector<float> historicalTemperatures;
       std::vector<float> historicalHumidities;
       std::vector<float> historicalPressures;
-   
       Subject * weatherData;
 
   };

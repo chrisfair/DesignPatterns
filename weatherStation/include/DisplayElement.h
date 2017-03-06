@@ -3,10 +3,10 @@
 
 namespace WeatherStation {
 
-    class DisplayElement {
+  class DisplayElement {
 
-      public:
-          void display();
-    };
+    public:
+      void display();
+  };
 }
 #endif // DISPLAY_ELEMENT_H
