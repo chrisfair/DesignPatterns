@@ -43,6 +43,7 @@ namespace WeatherStation {
 
       const int indexOfElement = static_cast<int>(locationOfObserver);
 
+      delete o;
       observers.erase(indexOfElement + observers.begin());
     }
 

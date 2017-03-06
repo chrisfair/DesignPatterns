@@ -25,6 +25,12 @@
     weatherData->setMeasurements(78, 90, 20.4f);
     weatherData->setMeasurements(78, 90, 4.4f);
 
+    delete weatherData;
+    delete currentDisplay;
+    delete statisticsDisplay;
+    delete forcastDisplay;
+    delete heatIndexDisplay;
+
     return 0;
 
   }
