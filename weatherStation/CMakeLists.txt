@@ -24,7 +24,8 @@ set (SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/Subject
                ${CMAKE_CURRENT_SOURCE_DIR}/src/HeatIndexDisplay
                ${CMAKE_CURRENT_SOURCE_DIR}/src/main )
 
-set (TEST_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/tests/unitTestMain.cpp )
+set (TEST_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/tests/unitTestMain.cpp 
+                  ${CMAKE_CURRENT_SOURCE_DIR}/tests/unitTestForcastDisplay.cpp)
 
 add_executable(Unit_Tests ${TEST_SOURCES})
 add_executable(WeatherStation ${SRC_FILES})
