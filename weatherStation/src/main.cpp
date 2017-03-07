@@ -5,6 +5,7 @@
 #include "ForcastDisplay.h"
 #include "HeatIndexDisplay.h"
 
+#define UNIT_TESTS
 #ifdef UNIT_TESTS
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
