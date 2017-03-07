@@ -6,7 +6,7 @@ SET(CMAKE_CXX_COMPILER "/usr/bin/clang++")
 SET(CMAKE_C_COMPILER "/bin/clang")
 
 
-cmake_minimum_required(VERSION 3.7)
+cmake_minimum_required(VERSION 3.0)
 
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR} 
                      ${CMAKE_CURRENT_SOURCE_DIR}/include/)
