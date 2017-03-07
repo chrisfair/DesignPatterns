@@ -23,7 +23,6 @@ TEST_CASE ( "Forcast Display Unit Tests", "[forcastDisplay]" ) {
   const int getAverageTemperature = forcastDisplay->getAverage(forcastDisplay->historicalTemperatures);
 
   REQUIRE( getAverageTemperature == 30 ); 
-  REQUIRE( getAverageTemperature != 30);
 
   (void)forcastDisplay;
   delete forcastDisplay;
