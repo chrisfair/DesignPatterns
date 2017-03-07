@@ -3,10 +3,10 @@ SET(CMAKE_AR  "/usr/bin/llvm-ar")
 SET(CMAKE_LINKER   "/usr/bin/llvm-ld")
 SET(CMAKE_NM  "/usr/bin/llvm-nm")
 SET(CMAKE_CXX_COMPILER "/usr/bin/clang++")
-SET(CMAKE_C_COMPILER "/bin/clang")
+SET(CMAKE_C_COMPILER "/usr/bin/clang")
 
 
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 2.5)
 
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR} 
                      ${CMAKE_CURRENT_SOURCE_DIR}/include/)

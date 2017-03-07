@@ -4,7 +4,15 @@
 #include "StatisticsDisplay.h"
 #include "ForcastDisplay.h"
 #include "HeatIndexDisplay.h"
+#include "catch.hpp"
+#define UNIT_TESTS
 
+#ifdef UNIT_TESTS
+#define CATCH_CONFIG_MAIN
+#endif
+
+
+#ifndef UNIT_TESTS
   int main(int argc, char ** argv)
   {
 
@@ -34,6 +42,8 @@
     return 0;
 
   }
+#endif
+
 
 
 
