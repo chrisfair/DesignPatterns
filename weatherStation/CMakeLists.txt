@@ -37,7 +37,7 @@ add_executable(${PROJECT_TEST_NAME} ${TEST_SOURCES})
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 
 include(CppcheckTargets)
-add_cppcheck (${PROJECT_NAME} cppcheck)
+add_cppcheck_sources (${SRC_FILES} [STYLE])
 
 enable_testing(true)
 add_test (NAME UnitTests COMMAND ${PROJECT_TEST_NAME})
