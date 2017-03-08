@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+
 set(CMAKE_CXX_FLAGS "-g -O0 -Wall -fprofile-arcs -ftest-coverage")
 set(CMAKE_C_FLAGS "-g -O0 -Wall -W -fprofile-arcs -ftest-coverage")
 set(CMAKE_EXE_LINKER_FLAGS "-fprofile-arcs -ftest-coverage")
@@ -8,17 +10,23 @@ set(CMAKE_CXX_COMPILER "/usr/bin/clang++")
 set(CMAKE_C_COMPILER "/usr/bin/clang")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(PROJECT_NAME "WeatherStation")
+set(UNIT_TESTS "Unit_Tests")
 
+project(${PROJECT_NAME})
 add_library(Catch INTERFACE)
+
 target_include_directories(Catch INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
                                            ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
-cmake_minimum_required(VERSION 3.0)
 
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR} 
                      ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
-project(WeatherStation)
+
+
+set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules)
+include(CodeCoverage)
 
 
 set (COMMON_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/Subject
@@ -40,8 +48,9 @@ set (TEST_SOURCES ${COMMON_FILES}
 add_executable(WeatherStation ${SRC_FILES})
 
 
-add_executable(Unit_Tests ${TEST_SOURCES})
-target_link_libraries(Unit_Tests Catch)
+add_executable(${UNIT_TESTS} ${TEST_SOURCES})
+target_link_libraries(${UNIT_TESTS} Catch)
 
 enable_testing(true)
 add_test (NAME UnitTests COMMAND Unit_Tests)
+setup_target_for_coverage(${PROJECT_NAME}_coverage Unit_Tests coverage)
