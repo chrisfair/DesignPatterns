@@ -1,5 +1,4 @@
 set(PROJECT_NAME "WeatherStation")
-set(PROJECT_TEST_NAME "Unit_Tests")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -20,6 +19,6 @@ set (SRC_FILES ${COMMON_FILES} ${CMAKE_CURRENT_SOURCE_DIR}/main )
 
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
-include(${CMAKE_CURRENT_SOURCE_DIR}/tests/CMakeLists.txt)
+include(${CMAKE_CURRENT_SOURCE_DIR}/catch-tests/CMakeLists.txt)
 
 
