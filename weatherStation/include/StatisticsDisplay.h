@@ -11,11 +11,11 @@
 namespace WeatherStation {
 
 
-  class StatisticDisplay : public Observer,  public DisplayElement {
+  class StatisticsDisplay : public Observer,  public DisplayElement {
     
     public:
-      StatisticDisplay(Subject * weatherData);
-      virtual ~StatisticDisplay();
+      StatisticsDisplay(Subject * weatherData);
+      virtual ~StatisticsDisplay();
       virtual void update (float temperature, float humidity, float pressure);
       virtual void display();
 

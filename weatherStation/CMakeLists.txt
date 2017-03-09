@@ -17,21 +17,14 @@ include_directories( ${CMAKE_CURRENT_SOURCE_DIR}
 
 list (APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules)
 
-set (COMMON_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/Subject
-                  ${CMAKE_CURRENT_SOURCE_DIR}/src/Observer
-                  ${CMAKE_CURRENT_SOURCE_DIR}/src/WeatherData
-                  ${CMAKE_CURRENT_SOURCE_DIR}/src/CurrentConditionsDisplay
-                  ${CMAKE_CURRENT_SOURCE_DIR}/src/StatisticsDisplay
-                  ${CMAKE_CURRENT_SOURCE_DIR}/src/ForcastDisplay
-                  ${CMAKE_CURRENT_SOURCE_DIR}/src/HeatIndexDisplay )
- 
-              
-set (SRC_FILES ${COMMON_FILES}
-               ${CMAKE_CURRENT_SOURCE_DIR}/src/main )
+file (GLOB COMMON_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/*)
 
-set (TEST_SOURCES ${COMMON_FILES}
-                  ${CMAKE_CURRENT_SOURCE_DIR}/tests/mainUnitTest.cpp 
-                  ${CMAKE_CURRENT_SOURCE_DIR}/tests/forcastDisplayUnitTest.cpp )
+              
+set (SRC_FILES ${COMMON_FILES} ${CMAKE_CURRENT_SOURCE_DIR}/main )
+
+file (GLOB TEST_SOURCES_INITIAL ${CMAKE_CURRENT_SOURCE_DIR}/tests/*) 
+
+set (TEST_SOURCES ${TEST_SOURCES_INITIAL} ${COMMON_FILES}) 
 
 add_executable(${PROJECT_TEST_NAME} ${TEST_SOURCES})
 add_executable(${PROJECT_NAME} ${SRC_FILES})
