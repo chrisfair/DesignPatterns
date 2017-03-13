@@ -1,5 +1,5 @@
 set(LCOV_REMOVE_EXTRA "'catch/*'")
-set(CATCH_TEST_NAME "Catch_Unit_Tests")
+set(CATCH_TEST_NAME "CatchUnitTests")
 add_library(Catch INTERFACE)
 
 target_include_directories(Catch INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/catch)
