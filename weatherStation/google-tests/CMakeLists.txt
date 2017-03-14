@@ -2,14 +2,14 @@ set(GOOGLE_TEST_NAME "GoogleUnitTests")
 set(LCOV_REMOVE_EXTRA "'googletest/*'")
 
 add_library(GoogleTest INTERFACE)
-set(LIB_G_TEST ${CMAKE_CURRENT_SOURCE_DIR}/googletest/build/googlemock/gtest/libgtest.a)
-set(LIB_G_MOCK ${CMAKE_CURRENT_SOURCE_DIR}/googletest/build/googlemock/libgmock.a)
+set(LIB_G_TEST ${CURRENT_SOURCE_DIR}/googletest/build/googlemock/gtest/libgtest.a)
+set(LIB_G_MOCK ${CURRENT_SOURCE_DIR}/googletest/build/googlemock/libgmock.a)
 
-target_include_directories(GoogleTest INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include" 
-                                           "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googlemock/include")
+target_include_directories(GoogleTest INTERFACE "${CURRENT_SOURCE_DIR}/googletest/googletest/include" 
+                                           "${CURRENT_SOURCE_DIR}/googletest/googlemock/include")
 
 
-file (GLOB GOOGLE_SOURCES_INITIAL ${CMAKE_CURRENT_SOURCE_DIR}/google-tests/*.cpp) 
+file (GLOB GOOGLE_SOURCES_INITIAL ${CURRENT_SOURCE_DIR}/google-tests/*.cpp) 
 
 set (GOOGLE_TEST_SOURCES ${GOOGLE_SOURCES_INITIAL} ${COMMON_FILES}) 
 
