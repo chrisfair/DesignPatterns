@@ -39,8 +39,8 @@ TEST(StatisticsDisplayUnitTests, Examples) {
 
    // These are the actual unit tests the rest is really set up
 
-   ASSERT_TRUE( thatAllAverageAreThirty, true);
-   ASSERT_TRUE( thatThereAreFiveReadings, true );  
+   ASSERT_TRUE( thatAllAveragesAreThirty );
+   ASSERT_TRUE( thatThereAreFiveReadings );  
 
    (void)statisticsDisplay;
    delete statisticsDisplay;
