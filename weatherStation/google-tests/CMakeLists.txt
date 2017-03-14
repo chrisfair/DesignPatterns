@@ -1,4 +1,5 @@
 set(GOOGLE_TEST_NAME "GoogleUnitTests")
+set(LCOV_REMOVE_EXTRA "'googletest/*'")
 
 add_library(GoogleTest INTERFACE)
 set(LIB_G_TEST ${CMAKE_CURRENT_SOURCE_DIR}/googletest/build/googlemock/gtest/libgtest.a)
