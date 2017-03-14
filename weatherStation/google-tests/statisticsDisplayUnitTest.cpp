@@ -7,8 +7,6 @@
 #undef protected
 #undef private 
 
-
-
 #include "gtest/gtest.h"
 
 TEST(StatisticsDisplayUnitTests, Examples) {
@@ -41,8 +39,8 @@ TEST(StatisticsDisplayUnitTests, Examples) {
 
    // These are the actual unit tests the rest is really set up
 
-   ASSERT_EQ( thatAllAverageAreThirty, true);
-   ASSERT_EQ( thatThereAreFiveReadings, true );  
+   ASSERT_TRUE( thatAllAverageAreThirty, true);
+   ASSERT_TRUE( thatThereAreFiveReadings, true );  
 
    (void)statisticsDisplay;
    delete statisticsDisplay;
