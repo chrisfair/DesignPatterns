@@ -20,8 +20,6 @@ add_dependencies(libgtest gtest)
 add_library(libgmock IMPORTED STATIC GLOBAL)
 add_dependencies(libgmock gtest)
 
-
-
 add_executable(${GOOGLE_TEST_NAME} ${GOOGLE_TEST_SOURCES})
 
 set_target_properties(${GOOGLE_TEST_NAME} PROPERTIES COMPILE_FLAGS
@@ -40,10 +38,7 @@ set_target_properties(libgmock PROPERTIES
     )
 target_link_libraries(${GOOGLE_TEST_NAME} gtest gcov pthread)
 
-
-
 add_test(NAME GoogleUnitTests COMMAND ${GOOGLE_TEST_NAME})
-
 
 include(CodeCoverage)
 setup_target_for_coverage(google-coverage ${GOOGLE_TEST_NAME} google-coverage)
