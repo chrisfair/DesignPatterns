@@ -1,8 +1,8 @@
 #! /bin/bash
 REMOTEDIRECTORY="/tmp/fakeHome"
-DIRECTORY_FOR_LCOV="/tmp/locvTempWork"
 SCRIPTPATH=$1
 USER_NAME="engr$.admin"
+DIRECTORY_FOR_LCOV="$1/locvTempWork"
 echo "Unit Testing for WeatherStation"
 echo $(date)
 
@@ -21,8 +21,6 @@ ssh -x -C $USER_NAME@chlorine umount /home
 ssh -x -C $USER_NAME@chlorine rm /tmp/CatchUnitTests
 ssh -x -C $USER_NAME@chlorine rm -rf /tmp/homeMount
 
-#if ($PROCESSLCOV); then
-#  cd $DIRECTORY_FOR_LCOV
-#  ./updateScript.sh &>/tmp/log.output
-#fi
+cd $DIRECTORY_FOR_LCOV
+./updateScript.sh &>/tmp/log.output
 
