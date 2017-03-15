@@ -13,7 +13,12 @@ ssh -x -C $USER_NAME@chlorine mount "$REMOTEDIRECTORY" /opt &>/dev/null
 
 ssh $USER_NAME@chlorine rm -rf /tmp/Home/*
 scp $SCRIPTPATH/CatchUnitTests $USER_NAME@chlorine:/tmp
+ssh -x -C $USER_NAME@chlorine mkdir /tmp/homeMount
+ssh -x -C $USER_NAME@chlorine mount /tmp/homeMount /home
 ssh -x -C $USER_NAME@chlorine /tmp/CatchUnitTests
+
+ssh -x -C $USER_NAME@chlorine umount /tmp/homeMount
+
 
 #if ($PROCESSLCOV); then
 #  cd $DIRECTORY_FOR_LCOV
