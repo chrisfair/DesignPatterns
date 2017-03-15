@@ -1,0 +1,3 @@
+[src/ForcastDisplay.cpp:87]: (style) Unused variable: subsetOfHistoricalOrdinal
+[src/ForcastDisplay.cpp:88]: (style) Unused variable: subsetOfHistoricalPressures
+(information) Cppcheck cannot find all the include files (use --check-config for details)
