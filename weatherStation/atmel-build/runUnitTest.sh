@@ -35,7 +35,7 @@ lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "/home/cfair/Tutorial/DesignP
 lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "4.8.6" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
 
 geninfo $DIRECTORY_FOR_LCOV/ -o $DIRECTORY_FOR_LCOV/lcov.dat
-lcov_cobertura $DIRECTORY_FOR_LCOV/coverage.xml
+lcov_cobertura $DIRECTORY_FOR_LCOV/  $DIRECTORY_FIR_LCOV/coverage.xml
 genhtml $DIRECTORY_FOR_LCOV/coverage.info.filtered -o $DIRECTORY_FOR_LCOV/lcovHtml
 
 ssh -x -C $USER_NAME@chlorine rm -rf /tmp/homeMount
