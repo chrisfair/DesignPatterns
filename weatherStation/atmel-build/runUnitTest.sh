@@ -25,7 +25,7 @@ rm -rf $DIRECTORY_FOR_LCOV/gcovSources/*
 rm -rf $DIRECTORY_FOR_LCOV/lcovHtml/*
 
 
-BASENAME=$SCRIPTPATH/CMakeFiles/CatchUnitTests.dir/home/cfair/Tutorial/DesignPatterns/weatherStation/atmel-build/build/CMakeFiles/CatchUnitTests.dir/home/cfair/Tutorial/DesignPatterns/weatherStation
+BASENAME=$SCRIPTPATH/CMakeFiles/CatchUnitTests.dir/
 scp -r $USER_NAME@chlorine:/home $DIRECTORY_FOR_LCOV/gcovSources
 cp -rf $SCRIPTPATH/CMakeFiles/CatchUnitTests.dir/home/cfair $DIRECTORY_FOR_LCOV/gcovSources/home/cfair/Tutorial/DesignPatterns/weatherStation/atmel-build/build/CMakeFiles/CatchUnitTests.dir/home
 lcov -c -d $DIRECTORY_FOR_LCOV/gcovSources -o $DIRECTORY_FOR_LCOV/coverage.info 
