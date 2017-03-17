@@ -5,6 +5,10 @@ LCOV_PATH=`dirname $SCRIPT`
 SCRIPTPATH=$1
 USER_NAME="engr$.admin"
 DIRECTORY_FOR_LCOV="$LCOV_PATH/lcovDir"
+CURRENT_DIR=$PWD
+cd $LCOV_PATH
+cd ..
+DIRECTORY_FOR_CODE=$PWD
 echo "Unit Testing for WeatherStation"
 echo $(date)
 
@@ -16,8 +20,6 @@ ssh -x -C $USER_NAME@chlorine mkdir $REMOTEDIRECTORY
 ssh -x -C $USER_NAME@chlorine mount $REMOTEDIRECTORY /home
 ssh -x -C $USER_NAME@chlorine /tmp/CatchUnitTests -r junit > catchUnitTests.xml
 
-
-
 cd $DIRECTORY_FOR_LCOV
 
 rm -f $DIRECTORY_FOR_LCOV/coverage.info
@@ -25,13 +27,20 @@ rm -rf $DIRECTORY_FOR_LCOV/gcovSources/*
 rm -rf $DIRECTORY_FOR_LCOV/lcovHtml/*
 
 
-BASENAME=$SCRIPTPATH/CMakeFiles/CatchUnitTests.dir/
+CATCH_TESTS_BASE=$SCRIPTPATH/CMakeFiles/CatchUnitTests.dir/
+BASENAME=$(find $CATCH_TESTS_BASE -type d -name "*weatherStation*")
+
+DESTINATION=$DIRECTORY_FOR_LCOV/gcovSources/$BASENAME
+
+echo $BASENAME
+echo $DIRECTORY_FOR_CODE
+
 scp -r $USER_NAME@chlorine:/home $DIRECTORY_FOR_LCOV/gcovSources
-cp -rf $SCRIPTPATH/CMakeFiles/CatchUnitTests.dir/home/cfair $DIRECTORY_FOR_LCOV/gcovSources/home/cfair/Tutorial/DesignPatterns/weatherStation/atmel-build/build/CMakeFiles/CatchUnitTests.dir/home
+cp -rf $BASENAME/* $DESTINATION 
 lcov -c -d $DIRECTORY_FOR_LCOV/gcovSources -o $DIRECTORY_FOR_LCOV/coverage.info 
-lcov -e $DIRECTORY_FOR_LCOV/coverage.info "/home/cfair/Tutorial/DesignPatterns/weatherStation/*" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
-lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "/home/cfair/Tutorial/DesignPatterns/weatherStation/catch/*" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
-lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "/home/cfair/Tutorial/DesignPatterns/weatherStation/catch-tests/*" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
+lcov -e $DIRECTORY_FOR_LCOV/coverage.info "$DIRECTORY_FOR_CODE/*" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
+lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "$DIRECTORY_FOR_CODE/catch/*" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
+lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "$DIRECTORY_FOR_CODE/catch-tests/*" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
 lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "4.8.6" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
 
 geninfo $DIRECTORY_FOR_LCOV/ -o $DIRECTORY_FOR_LCOV/lcov.dat

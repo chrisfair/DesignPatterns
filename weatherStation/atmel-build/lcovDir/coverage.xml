@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage
   SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
-<coverage branch-rate="0.0" branches-covered="0" branches-valid="0" complexity="0" line-rate="0.4439602579745512" lines-covered="2547" lines-valid="5737" timestamp="1489775529" version="2.0.3">
+<coverage branch-rate="0.0" branches-covered="0" branches-valid="0" complexity="0" line-rate="0.4439602579745512" lines-covered="2547" lines-valid="5737" timestamp="1489781137" version="2.0.3">
 	<sources>
 		<source>.</source>
 	</sources>
@@ -25,14 +25,14 @@
 								<line branch="false" hits="8" number="895"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZN5Catch20DecomposedExpressionD0Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="897"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZN5Catch20DecomposedExpressionD2Ev" signature="">
 							<lines>
 								<line branch="false" hits="8" number="897"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZN5Catch20DecomposedExpressionD0Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="897"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNK5Catch20DecomposedExpression18isBinaryExpressionEv" signature="">
@@ -55,24 +55,24 @@
 								<line branch="false" hits="4" number="1167"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZN5Catch13ResultBuilderD0Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="1180"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZN5Catch13ResultBuilderD2Ev" signature="">
 							<lines>
 								<line branch="false" hits="4" number="1180"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZN5Catch13ExpressionLhsIbED0Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZN5Catch13ResultBuilderD0Ev" signature="">
 							<lines>
-								<line branch="false" hits="0" number="1755"/>
+								<line branch="false" hits="0" number="1180"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZN5Catch13ExpressionLhsIbED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="4" number="1755"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZN5Catch13ExpressionLhsIbED0Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1755"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZN5Catch13ExpressionLhsIbEC2ERNS_13ResultBuilderEb" signature="">
@@ -249,12 +249,12 @@
 								<line branch="false" hits="0" number="123"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSsC2IN9__gnu_cxx17__normal_iteratorIPKcSsEEEET_S5_RKSaIcE" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSsC2IPcEET_S1_RKSaIcE" signature="">
 							<lines>
 								<line branch="false" hits="0" number="227"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSsC2IPcEET_S1_RKSaIcE" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSsC2IN9__gnu_cxx17__normal_iteratorIPKcSsEEEET_S5_RKSaIcE" signature="">
 							<lines>
 								<line branch="false" hits="0" number="227"/>
 							</lines>
@@ -519,14 +519,14 @@
 								<line branch="false" hits="2" number="379"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZSt14__copy_move_a2ILb1EN9__gnu_cxx17__normal_iteratorIPPN14WeatherStation8ObserverESt6vectorIS4_SaIS4_EEEES9_ET1_T0_SB_SA_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="424"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZSt14__copy_move_a2ILb1EPPN14WeatherStation8ObserverES3_ET1_T0_S5_S4_" signature="">
 							<lines>
 								<line branch="false" hits="2" number="424"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZSt14__copy_move_a2ILb1EN9__gnu_cxx17__normal_iteratorIPPN14WeatherStation8ObserverESt6vectorIS4_SaIS4_EEEES9_ET1_T0_SB_SA_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="424"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZSt4copyISt13move_iteratorIPPN14WeatherStation8ObserverEES4_ET0_T_S7_S6_" signature="">
@@ -595,9 +595,9 @@
 				</class>
 				<class branch-rate="0.0" complexity="0" filename="../../../../../../../opt/Programs/buildroot-at91/output/host/usr/arm-buildroot-linux-gnueabi/include/c++/4.8.2/bits/stl_function.h" line-rate="0.8" name=".....................opt.Programs.buildroot-at91.output.host.usr.arm-buildroot-linux-gnueabi.include.c++.4.8.2.bits.stl_function.h">
 					<methods>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt4lessISsEclERKSsS2_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt4lessIiEclERKiS2_" signature="">
 							<lines>
-								<line branch="false" hits="15" number="234"/>
+								<line branch="false" hits="0" number="234"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt4lessIN5Catch8TestCaseEEclERKS1_S4_" signature="">
@@ -605,9 +605,9 @@
 								<line branch="false" hits="3" number="234"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt4lessIiEclERKiS2_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt4lessISsEclERKSsS2_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="234"/>
+								<line branch="false" hits="15" number="234"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt9_IdentityISsEclERSs" signature="">
@@ -625,6 +625,11 @@
 								<line branch="false" hits="6" number="481"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsPN5Catch14IGeneratorInfoEEEclERKS5_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="494"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt10_Select1stISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEclERKS6_" signature="">
 							<lines>
 								<line branch="false" hits="11" number="494"/>
@@ -640,7 +645,7 @@
 								<line branch="false" hits="0" number="494"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsPN5Catch14IGeneratorInfoEEEclERKS5_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsPN5Catch18IGeneratorsForTestEEEclERKS5_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="494"/>
 							</lines>
@@ -650,9 +655,19 @@
 								<line branch="false" hits="0" number="494"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsPN5Catch18IGeneratorsForTestEEEclERKS5_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt10_Select1stISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEclIS0_ISsS5_EEERNT_10first_typeERSA_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="494"/>
+								<line branch="false" hits="7" number="500"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsPN5Catch18IGeneratorsForTestEEEclIS0_ISsS4_EEERNT_10first_typeERS9_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="500"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsN5Catch8TagAliasEEEclIS0_IPKcS3_EEERNT_10first_typeERSA_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="500"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsN5Catch7TagInfoEEEclIS0_ISsS3_EEERNT_10first_typeERS8_" signature="">
@@ -661,21 +676,6 @@
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsPN5Catch14IGeneratorInfoEEEclIS0_ISsS4_EEERNT_10first_typeERS9_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="500"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsPN5Catch18IGeneratorsForTestEEEclIS0_ISsS4_EEERNT_10first_typeERS9_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="500"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt10_Select1stISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEclIS0_ISsS5_EEERNT_10first_typeERSA_" signature="">
-							<lines>
-								<line branch="false" hits="7" number="500"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10_Select1stISt4pairIKSsN5Catch8TagAliasEEEclIS0_IPKcS3_EEERNT_10first_typeERSA_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="500"/>
 							</lines>
@@ -794,14 +794,14 @@
 								<line branch="false" hits="0" number="738"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx17__normal_iteratorIPKPN14WeatherStation8ObserverESt6vectorIS3_SaIS3_EEEppEv" signature="">
-							<lines>
-								<line branch="false" hits="10" number="746"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZN9__gnu_cxx17__normal_iteratorIPPN14WeatherStation8ObserverESt6vectorIS3_SaIS3_EEEppEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="746"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx17__normal_iteratorIPKPN14WeatherStation8ObserverESt6vectorIS3_SaIS3_EEEppEv" signature="">
+							<lines>
+								<line branch="false" hits="10" number="746"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNK9__gnu_cxx17__normal_iteratorIPPN14WeatherStation8ObserverESt6vectorIS3_SaIS3_EEEplERKi" signature="">
@@ -819,14 +819,14 @@
 								<line branch="false" hits="20" number="790"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxxneIPKPN14WeatherStation8ObserverESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_" signature="">
-							<lines>
-								<line branch="false" hits="20" number="823"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZN9__gnu_cxxneIPPN14WeatherStation8ObserverESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESD_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="823"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxxneIPKPN14WeatherStation8ObserverESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_" signature="">
+							<lines>
+								<line branch="false" hits="20" number="823"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZN9__gnu_cxxmiIPPN14WeatherStation8ObserverESt6vectorIS3_SaIS3_EEEENS_17__normal_iteratorIT_T0_E15difference_typeERKSB_SE_" signature="">
@@ -884,11 +884,6 @@
 				</class>
 				<class branch-rate="0.0" complexity="0" filename="../../../../../../../opt/Programs/buildroot-at91/output/host/usr/arm-buildroot-linux-gnueabi/include/c++/4.8.2/bits/stl_iterator_base_funcs.h" line-rate="0.0" name=".....................opt.Programs.buildroot-at91.output.host.usr.arm-buildroot-linux-gnueabi.include.c++.4.8.2.bits.stl_iterator_base_funcs.h">
 					<methods>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZSt10__distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_St26random_access_iterator_tag" signature="">
-							<lines>
-								<line branch="false" hits="0" number="90"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZSt10__distanceIN9__gnu_cxx17__normal_iteratorIPKcSsEEENSt15iterator_traitsIT_E15difference_typeES6_S6_St26random_access_iterator_tag" signature="">
 							<lines>
 								<line branch="false" hits="0" number="90"/>
@@ -899,17 +894,22 @@
 								<line branch="false" hits="0" number="90"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZSt10__distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_St26random_access_iterator_tag" signature="">
+							<lines>
+								<line branch="false" hits="0" number="90"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZSt8distanceIN9__gnu_cxx17__normal_iteratorIPKN5Catch11MessageInfoESt6vectorIS3_SaIS3_EEEEENSt15iterator_traitsIT_E15difference_typeESB_SB_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="114"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZSt8distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="114"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZSt8distanceIN9__gnu_cxx17__normal_iteratorIPKcSsEEENSt15iterator_traitsIT_E15difference_typeES6_S6_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="114"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZSt8distanceIN9__gnu_cxx17__normal_iteratorIPKN5Catch11MessageInfoESt6vectorIS3_SaIS3_EEEEENSt15iterator_traitsIT_E15difference_typeESB_SB_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="114"/>
 							</lines>
@@ -939,14 +939,14 @@
 								<line branch="false" hits="6" number="212"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Iter_baseISt13move_iteratorIPPN14WeatherStation8ObserverEELb1EE7_S_baseES5_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="220"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPPN14WeatherStation8ObserverESt6vectorIS4_SaIS4_EEEELb1EE7_S_baseES9_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="220"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Iter_baseISt13move_iteratorIPPN14WeatherStation8ObserverEELb1EE7_S_baseES5_" signature="">
+							<lines>
+								<line branch="false" hits="4" number="220"/>
 							</lines>
 						</method>
 					</methods>
@@ -961,17 +961,17 @@
 				</class>
 				<class branch-rate="0.0" complexity="0" filename="../../../../../../../opt/Programs/buildroot-at91/output/host/usr/arm-buildroot-linux-gnueabi/include/c++/4.8.2/bits/stl_map.h" line-rate="0.8095238095238095" name=".....................opt.Programs.buildroot-at91.output.host.usr.arm-buildroot-linux-gnueabi.include.c++.4.8.2.bits.stl_map.h">
 					<methods>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEED2Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsN5Catch7TagInfoESt4lessISsESaISt4pairIKSsS1_EEED2Ev" signature="">
 							<lines>
-								<line branch="false" hits="1" number="96"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapIiN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt4lessIiESaISt4pairIKiS5_EEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="1" number="96"/>
+								<line branch="false" hits="0" number="96"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="1" number="96"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="96"/>
 							</lines>
@@ -981,17 +981,22 @@
 								<line branch="false" hits="0" number="96"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsN5Catch7TagInfoESt4lessISsESaISt4pairIKSsS1_EEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="96"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsPN5Catch18IGeneratorsForTestESt4lessISsESaISt4pairIKSsS2_EEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="96"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEEC2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapIiN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt4lessIiESaISt4pairIKiS5_EEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="1" number="96"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsPN5Catch18IGeneratorsForTestESt4lessISsESaISt4pairIKSsS2_EEEC2Ev" signature="">
+							<lines>
+								<line branch="false" hits="1" number="160"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="160"/>
 							</lines>
@@ -1001,12 +1006,7 @@
 								<line branch="false" hits="0" number="160"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEEC2Ev" signature="">
-							<lines>
-								<line branch="false" hits="1" number="160"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsPN5Catch18IGeneratorsForTestESt4lessISsESaISt4pairIKSsS2_EEEC2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="160"/>
 							</lines>
@@ -1031,19 +1031,14 @@
 								<line branch="false" hits="0" number="320"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEE5beginEv" signature="">
-							<lines>
-								<line branch="false" hits="1" number="329"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEE5beginEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="329"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsPN5Catch18IGeneratorsForTestESt4lessISsESaISt4pairIKSsS2_EEE3endEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEE5beginEv" signature="">
 							<lines>
-								<line branch="false" hits="3" number="338"/>
+								<line branch="false" hits="1" number="329"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsPN5Catch14IGeneratorInfoESt4lessISsESaISt4pairIKSsS2_EEE3endEv" signature="">
@@ -1051,19 +1046,24 @@
 								<line branch="false" hits="0" number="338"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsPN5Catch18IGeneratorsForTestESt4lessISsESaISt4pairIKSsS2_EEE3endEv" signature="">
+							<lines>
+								<line branch="false" hits="3" number="338"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsN5Catch7TagInfoESt4lessISsESaISt4pairIKSsS1_EEE3endEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="338"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEE3endEv" signature="">
-							<lines>
-								<line branch="false" hits="1" number="347"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt3mapIiN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt4lessIiESaISt4pairIKiS5_EEE3endEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="347"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEE3endEv" signature="">
+							<lines>
+								<line branch="false" hits="1" number="347"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEE3endEv" signature="">
@@ -1076,19 +1076,24 @@
 								<line branch="false" hits="0" number="429"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEE4sizeEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="434"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt3mapISsN5Catch7TagInfoESt4lessISsESaISt4pairIKSsS1_EEE4sizeEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="434"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsN5Catch7TagInfoESt4lessISsESaISt4pairIKSsS1_EEE6insertIS4_ISsS1_EvEES4_ISt17_Rb_tree_iteratorIS6_EbEOT_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEE4sizeEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="434"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEE6insertIS4_IPKcS1_EvEES4_ISt17_Rb_tree_iteratorIS6_EbEOT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="602"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEE6insertIS6_ISsS3_EvEES6_ISt17_Rb_tree_iteratorIS8_EbEOT_" signature="">
+							<lines>
+								<line branch="false" hits="4" number="602"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsPN5Catch14IGeneratorInfoESt4lessISsESaISt4pairIKSsS2_EEE6insertIS5_ISsS2_EvEES5_ISt17_Rb_tree_iteratorIS7_EbEOT_" signature="">
@@ -1101,12 +1106,7 @@
 								<line branch="false" hits="0" number="602"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEE6insertIS6_ISsS3_EvEES6_ISt17_Rb_tree_iteratorIS8_EbEOT_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="602"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEE6insertIS4_IPKcS1_EvEES4_ISt17_Rb_tree_iteratorIS6_EbEOT_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt3mapISsN5Catch7TagInfoESt4lessISsESaISt4pairIKSsS1_EEE6insertIS4_ISsS1_EvEES4_ISt17_Rb_tree_iteratorIS6_EbEOT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="602"/>
 							</lines>
@@ -1126,6 +1126,11 @@
 								<line branch="false" hits="0" number="821"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEE4findERS7_" signature="">
+							<lines>
+								<line branch="false" hits="1" number="836"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt3mapISsN5Catch8TagAliasESt4lessISsESaISt4pairIKSsS1_EEE4findERS5_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="836"/>
@@ -1134,11 +1139,6 @@
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt3mapIiN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt4lessIiESaISt4pairIKiS5_EEE4findERS9_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="836"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt3mapISsN5Catch3PtrINS0_16IReporterFactoryEEESt4lessISsESaISt4pairIKSsS3_EEE4findERS7_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="836"/>
 							</lines>
 						</method>
 					</methods>
@@ -1168,6 +1168,26 @@
 				</class>
 				<class branch-rate="0.0" complexity="0" filename="../../../../../../../opt/Programs/buildroot-at91/output/host/usr/arm-buildroot-linux-gnueabi/include/c++/4.8.2/bits/stl_pair.h" line-rate="0.7142857142857143" name=".....................opt.Programs.buildroot-at91.output.host.usr.arm-buildroot-linux-gnueabi.include.c++.4.8.2.bits.stl_pair.h">
 					<methods>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsPN5Catch14IGeneratorInfoEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="96"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairIKSsN5Catch3PtrINS1_16IReporterFactoryEEEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="4" number="96"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsPN5Catch18IGeneratorsForTestEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="96"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISsN5Catch7TagInfoEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="96"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKiN5Catch5Clara11CommandLineINS1_10ConfigDataEE3ArgEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="96"/>
@@ -1178,37 +1198,7 @@
 								<line branch="false" hits="0" number="96"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISsPN5Catch18IGeneratorsForTestEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="96"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsN5Catch8TagAliasEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="96"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsPN5Catch14IGeneratorInfoEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="96"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsPN5Catch18IGeneratorsForTestEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="96"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairIKSsN5Catch3PtrINS1_16IReporterFactoryEEEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="4" number="96"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISsPN5Catch14IGeneratorInfoEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="96"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPKcN5Catch8TagAliasEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="96"/>
 							</lines>
@@ -1218,7 +1208,17 @@
 								<line branch="false" hits="4" number="96"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISsN5Catch7TagInfoEED2Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsN5Catch8TagAliasEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="96"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPKcN5Catch8TagAliasEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="96"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISsPN5Catch18IGeneratorsForTestEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="96"/>
 							</lines>
@@ -1238,87 +1238,12 @@
 								<line branch="false" hits="0" number="138"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsPN5Catch18IGeneratorsForTestEEESC_vEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsPN5Catch14IGeneratorInfoEEEbEC2IS6_bvEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsPN5Catch14IGeneratorInfoEEESC_vEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsN5Catch3PtrINS6_16IReporterFactoryEEEEESD_vEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsN5Catch7TagInfoEEESB_vEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISsPN5Catch18IGeneratorsForTestEEC1IRSsRS2_vEEOT_OT0_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="144"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt23_Rb_tree_const_iteratorISsEbEC2IRSt17_Rb_tree_iteratorISsERbvEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPKcN5Catch8TagAliasEEC1IRS1_S3_vEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEbEC2IS7_bvEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsN5Catch8TagAliasEEEbEC2IS5_bvEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsN5Catch8TagAliasEEESB_vEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt23_Rb_tree_const_iteratorIN5Catch8TestCaseEEbEC2IRSt17_Rb_tree_iteratorIS2_ERbvEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIN5Catch8TestCaseEES9_vEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIN5Catch8TestCaseEEbEC2IS3_bvEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsN5Catch7TagInfoEEEbEC2IS5_bvEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISsN5Catch7TagInfoEEC1IRSsS1_vEEOT_OT0_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="144"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsPN5Catch18IGeneratorsForTestEEEbEC2IS6_bvEEOT_OT0_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsN5Catch7TagInfoEEESB_vEEOT_OT0_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="144"/>
 							</lines>
@@ -1328,12 +1253,87 @@
 								<line branch="false" hits="4" number="144"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIN5Catch8TestCaseEES9_vEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsPN5Catch14IGeneratorInfoEEEbEC2IS6_bvEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsPN5Catch18IGeneratorsForTestEEEbEC2IS6_bvEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISsN5Catch7TagInfoEEC1IRSsS1_vEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt23_Rb_tree_const_iteratorISsEbEC2IRSt17_Rb_tree_iteratorISsERbvEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="4" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsN5Catch8TagAliasEEESB_vEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIN5Catch8TestCaseEEbEC2IS3_bvEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEbEC2IS7_bvEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="4" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsPN5Catch14IGeneratorInfoEEESC_vEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt17_Rb_tree_iteratorISsEbEC2IS1_bvEEOT_OT0_" signature="">
 							<lines>
 								<line branch="false" hits="4" number="144"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsN5Catch8TagAliasEEC1IPKcS2_vEEOS_IT_T0_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPKcN5Catch8TagAliasEEC1IRS1_S3_vEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsPN5Catch18IGeneratorsForTestEEESC_vEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKSsN5Catch3PtrINS6_16IReporterFactoryEEEEESD_vEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="4" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsN5Catch7TagInfoEEEbEC2IS5_bvEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairISt17_Rb_tree_iteratorIS_IKSsN5Catch8TagAliasEEEbEC2IS5_bvEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt4pairISt23_Rb_tree_const_iteratorIN5Catch8TestCaseEEbEC2IRSt17_Rb_tree_iteratorIS2_ERbvEEOT_OT0_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="144"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsPN5Catch18IGeneratorsForTestEEC1ISsS3_vEEOS_IT_T0_E" signature="">
 							<lines>
 								<line branch="false" hits="0" number="150"/>
 							</lines>
@@ -1343,12 +1343,12 @@
 								<line branch="false" hits="4" number="150"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsPN5Catch14IGeneratorInfoEEC1ISsS3_vEEOS_IT_T0_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsN5Catch8TagAliasEEC1IPKcS2_vEEOS_IT_T0_E" signature="">
 							<lines>
 								<line branch="false" hits="0" number="150"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsPN5Catch18IGeneratorsForTestEEC1ISsS3_vEEOS_IT_T0_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt4pairIKSsPN5Catch14IGeneratorInfoEEC1ISsS3_vEEOS_IT_T0_E" signature="">
 							<lines>
 								<line branch="false" hits="0" number="150"/>
 							</lines>
@@ -1358,22 +1358,22 @@
 								<line branch="false" hits="0" number="150"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZSt9make_pairIRKSsRKN5Catch3PtrINS2_16IReporterFactoryEEEESt4pairINSt17__decay_and_stripIT_E6__typeENS9_IT0_E6__typeEEOSA_OSD_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="276"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZSt9make_pairIRSsRPN5Catch18IGeneratorsForTestEESt4pairINSt17__decay_and_stripIT_E6__typeENS6_IT0_E6__typeEEOS7_OSA_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="276"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZSt9make_pairIRPKcN5Catch8TagAliasEESt4pairINSt17__decay_and_stripIT_E6__typeENS6_IT0_E6__typeEEOS7_OSA_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZSt9make_pairIRSsN5Catch7TagInfoEESt4pairINSt17__decay_and_stripIT_E6__typeENS4_IT0_E6__typeEEOS5_OS8_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="276"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZSt9make_pairIRSsN5Catch7TagInfoEESt4pairINSt17__decay_and_stripIT_E6__typeENS4_IT0_E6__typeEEOS5_OS8_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZSt9make_pairIRKSsRKN5Catch3PtrINS2_16IReporterFactoryEEEESt4pairINSt17__decay_and_stripIT_E6__typeENS9_IT0_E6__typeEEOSA_OSD_" signature="">
+							<lines>
+								<line branch="false" hits="4" number="276"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZSt9make_pairIRPKcN5Catch8TagAliasEESt4pairINSt17__decay_and_stripIT_E6__typeENS6_IT0_E6__typeEEOS7_OSA_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="276"/>
 							</lines>
@@ -1527,22 +1527,22 @@
 								<line branch="false" hits="32" number="116"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsN5Catch7TagInfoEEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="131"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt13_Rb_tree_nodeISsED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="36" number="131"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEED2Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsPN5Catch18IGeneratorsForTestEEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="131"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsN5Catch8TagAliasEEED2Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsN5Catch7TagInfoEEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="131"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="131"/>
 							</lines>
@@ -1557,24 +1557,24 @@
 								<line branch="false" hits="2" number="131"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsPN5Catch18IGeneratorsForTestEEED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="131"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="4" number="131"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsN5Catch8TagAliasEEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="131"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt13_Rb_tree_nodeIN5Catch8TestCaseEEC2IIRKS1_EEEDpOT_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="138"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt13_Rb_tree_nodeISsEC2IIRKSsEEEDpOT_" signature="">
 							<lines>
 								<line branch="false" hits="36" number="138"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISsEC2IISsEEEDpOT_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="138"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsPN5Catch14IGeneratorInfoEEEC2IIS0_ISsS4_EEEEDpOT_" signature="">
@@ -1587,6 +1587,11 @@
 								<line branch="false" hits="4" number="138"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsN5Catch7TagInfoEEEC2IIS0_ISsS3_EEEEDpOT_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="138"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsPN5Catch18IGeneratorsForTestEEEC2IIS0_ISsS4_EEEEDpOT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="138"/>
@@ -1597,17 +1602,22 @@
 								<line branch="false" hits="0" number="138"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt13_Rb_tree_nodeIN5Catch8TestCaseEEC2IIRKS1_EEEDpOT_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="138"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISt4pairIKSsN5Catch7TagInfoEEEC2IIS0_ISsS3_EEEEDpOT_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt13_Rb_tree_nodeISsEC2IISsEEEDpOT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="138"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch8TagAliasEEEC2EPSt13_Rb_tree_nodeIS4_E" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEC2EPSt13_Rb_tree_nodeIS6_E" signature="">
+							<lines>
+								<line branch="false" hits="12" number="174"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEC2EPSt13_Rb_tree_nodeIS5_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="174"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch7TagInfoEEEC2EPSt13_Rb_tree_nodeIS4_E" signature="">
 							<lines>
 								<line branch="false" hits="0" number="174"/>
 							</lines>
@@ -1617,24 +1627,14 @@
 								<line branch="false" hits="12" number="174"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch7TagInfoEEEC2EPSt13_Rb_tree_nodeIS4_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="174"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEC2EPSt13_Rb_tree_nodeIS5_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="174"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt17_Rb_tree_iteratorIN5Catch8TestCaseEEC2EPSt13_Rb_tree_nodeIS1_E" signature="">
 							<lines>
 								<line branch="false" hits="5" number="174"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEC2EPSt13_Rb_tree_nodeIS6_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch8TagAliasEEEC2EPSt13_Rb_tree_nodeIS4_E" signature="">
 							<lines>
-								<line branch="false" hits="12" number="174"/>
+								<line branch="false" hits="0" number="174"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsPN5Catch18IGeneratorsForTestEEEC2EPSt13_Rb_tree_nodeIS5_E" signature="">
@@ -1647,11 +1647,6 @@
 								<line branch="false" hits="0" number="182"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch7TagInfoEEEmmEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="202"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEmmEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="202"/>
@@ -1662,12 +1657,12 @@
 								<line branch="false" hits="0" number="202"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch8TagAliasEEEmmEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEmmEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="202"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEmmEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch8TagAliasEEEmmEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="202"/>
 							</lines>
@@ -1677,32 +1672,17 @@
 								<line branch="false" hits="0" number="202"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorISt4pairIKSsN5Catch7TagInfoEEEmmEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="202"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt17_Rb_tree_iteratorIN5Catch8TestCaseEEmmEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="202"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt17_Rb_tree_iteratorISt4pairIKSsPN5Catch18IGeneratorsForTestEEEeqERKS6_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="217"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt17_Rb_tree_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEeqERKS6_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="217"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt17_Rb_tree_iteratorISt4pairIKSsN5Catch7TagInfoEEEeqERKS5_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="217"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt17_Rb_tree_iteratorIN5Catch8TestCaseEEeqERKS2_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="217"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt17_Rb_tree_iteratorISt4pairIKSsN5Catch8TagAliasEEEeqERKS5_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="217"/>
 							</lines>
@@ -1717,19 +1697,29 @@
 								<line branch="false" hits="4" number="217"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt17_Rb_tree_iteratorIN5Catch8TestCaseEEeqERKS2_" signature="">
+							<lines>
+								<line branch="false" hits="1" number="217"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt17_Rb_tree_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEeqERKS6_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="217"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt17_Rb_tree_iteratorISt4pairIKSsPN5Catch18IGeneratorsForTestEEEeqERKS6_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="217"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt17_Rb_tree_iteratorISt4pairIKSsN5Catch8TagAliasEEEeqERKS5_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="217"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="243"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEEC2EPKSt13_Rb_tree_nodeIS8_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="247"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISsEC2EPKSt13_Rb_tree_nodeISsE" signature="">
-							<lines>
-								<line branch="false" hits="12" number="247"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEC2EPKSt13_Rb_tree_nodeIS6_E" signature="">
@@ -1737,9 +1727,29 @@
 								<line branch="false" hits="3" number="247"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISsEC2EPKSt13_Rb_tree_nodeISsE" signature="">
+							<lines>
+								<line branch="false" hits="12" number="247"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEEC2EPKSt13_Rb_tree_nodeIS8_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="247"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch8TagAliasEEEC2EPKSt13_Rb_tree_nodeIS4_E" signature="">
 							<lines>
 								<line branch="false" hits="2" number="247"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch18IGeneratorsForTestEEEC2ERKSt17_Rb_tree_iteratorIS5_E" signature="">
+							<lines>
+								<line branch="false" hits="6" number="250"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch7TagInfoEEEC2ERKSt17_Rb_tree_iteratorIS4_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="250"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorIN5Catch8TestCaseEEC2ERKSt17_Rb_tree_iteratorIS1_E" signature="">
@@ -1752,16 +1762,6 @@
 								<line branch="false" hits="0" number="250"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch7TagInfoEEEC2ERKSt17_Rb_tree_iteratorIS4_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="250"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch18IGeneratorsForTestEEEC2ERKSt17_Rb_tree_iteratorIS5_E" signature="">
-							<lines>
-								<line branch="false" hits="6" number="250"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISsEC2ERKSt17_Rb_tree_iteratorISsE" signature="">
 							<lines>
 								<line branch="false" hits="4" number="250"/>
@@ -1772,17 +1772,12 @@
 								<line branch="false" hits="4" number="259"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch7TagInfoEEEptEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEEptEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="263"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch18IGeneratorsForTestEEEptEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="263"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorIN5Catch8TestCaseEEptEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEptEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="263"/>
 							</lines>
@@ -1792,7 +1787,7 @@
 								<line branch="false" hits="0" number="263"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEEptEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch7TagInfoEEEptEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="263"/>
 							</lines>
@@ -1802,24 +1797,19 @@
 								<line branch="false" hits="1" number="263"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEptEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorIN5Catch8TestCaseEEptEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="263"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch7TagInfoEEEppEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch18IGeneratorsForTestEEEptEv" signature="">
 							<lines>
-								<line branch="false" hits="0" number="268"/>
+								<line branch="false" hits="0" number="263"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEppEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="268"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISsEppEv" signature="">
-							<lines>
-								<line branch="false" hits="2" number="268"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch8TagAliasEEEppEv" signature="">
@@ -1832,19 +1822,14 @@
 								<line branch="false" hits="0" number="268"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt23_Rb_tree_const_iteratorISsEeqERKS0_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch7TagInfoEEEppEv" signature="">
 							<lines>
-								<line branch="false" hits="2" number="298"/>
+								<line branch="false" hits="0" number="268"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch8TagAliasEEEeqERKS5_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt23_Rb_tree_const_iteratorISsEppEv" signature="">
 							<lines>
-								<line branch="false" hits="0" number="298"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEeqERKS6_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="298"/>
+								<line branch="false" hits="2" number="268"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEEeqERKS9_" signature="">
@@ -1852,24 +1837,24 @@
 								<line branch="false" hits="0" number="298"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch8TagAliasEEEeqERKS5_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="298"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt23_Rb_tree_const_iteratorISsEeqERKS0_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="298"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEeqERKS7_" signature="">
 							<lines>
 								<line branch="false" hits="2" number="298"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch7TagInfoEEEneERKS5_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch14IGeneratorInfoEEEeqERKS6_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="302"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEEneERKS9_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="302"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch8TagAliasEEEneERKS5_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="302"/>
+								<line branch="false" hits="0" number="298"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEEEneERKS7_" signature="">
@@ -1882,14 +1867,24 @@
 								<line branch="false" hits="6" number="302"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEEEneERKS9_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="302"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsPN5Catch18IGeneratorsForTestEEEneERKS6_" signature="">
 							<lines>
 								<line branch="false" hits="3" number="302"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE21_M_get_Node_allocatorEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch8TagAliasEEEneERKS5_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="356"/>
+								<line branch="false" hits="1" number="302"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt23_Rb_tree_const_iteratorISt4pairIKSsN5Catch7TagInfoEEEneERKS5_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="302"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE21_M_get_Node_allocatorEv" signature="">
@@ -1897,12 +1892,32 @@
 								<line branch="false" hits="0" number="356"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE21_M_get_Node_allocatorEv" signature="">
+							<lines>
+								<line branch="false" hits="4" number="356"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE21_M_get_Node_allocatorEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="356"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE21_M_get_Node_allocatorEv" signature="">
+							<lines>
+								<line branch="false" hits="72" number="356"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE21_M_get_Node_allocatorEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="356"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE21_M_get_Node_allocatorEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE21_M_get_Node_allocatorEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="356"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE21_M_get_Node_allocatorEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="356"/>
 							</lines>
@@ -1912,39 +1927,9 @@
 								<line branch="false" hits="8" number="356"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE21_M_get_Node_allocatorEv" signature="">
-							<lines>
-								<line branch="false" hits="4" number="356"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE21_M_get_Node_allocatorEv" signature="">
-							<lines>
-								<line branch="false" hits="72" number="356"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE21_M_get_Node_allocatorEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="356"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE21_M_get_Node_allocatorEv" signature="">
 							<lines>
 								<line branch="false" hits="30" number="360"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE11_M_get_nodeEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="369"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE11_M_get_nodeEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="369"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE11_M_get_nodeEv" signature="">
-							<lines>
-								<line branch="false" hits="36" number="369"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE11_M_get_nodeEv" signature="">
@@ -1957,9 +1942,9 @@
 								<line branch="false" hits="4" number="369"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE11_M_get_nodeEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE11_M_get_nodeEv" signature="">
 							<lines>
-								<line branch="false" hits="0" number="369"/>
+								<line branch="false" hits="36" number="369"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE11_M_get_nodeEv" signature="">
@@ -1967,12 +1952,42 @@
 								<line branch="false" hits="2" number="369"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS1_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE11_M_get_nodeEv" signature="">
 							<lines>
-								<line branch="false" hits="2" number="373"/>
+								<line branch="false" hits="0" number="369"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE11_M_get_nodeEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="369"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE11_M_get_nodeEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="369"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS6_E" signature="">
+							<lines>
+								<line branch="false" hits="4" number="373"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS4_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="373"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS4_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="373"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS8_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="373"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS5_E" signature="">
 							<lines>
 								<line branch="false" hits="0" number="373"/>
 							</lines>
@@ -1982,14 +1997,9 @@
 								<line branch="false" hits="0" number="373"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS6_E" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS1_E" signature="">
 							<lines>
-								<line branch="false" hits="4" number="373"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS8_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="373"/>
+								<line branch="false" hits="2" number="373"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE11_M_put_nodeEPSt13_Rb_tree_nodeISsE" signature="">
@@ -1997,14 +2007,9 @@
 								<line branch="false" hits="36" number="373"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS5_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE14_M_create_nodeIIS0_IPKcS3_EEEEPSt13_Rb_tree_nodeIS4_EDpOT_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="373"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS4_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="373"/>
+								<line branch="false" hits="0" number="401"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE14_M_create_nodeIISsEEEPSt13_Rb_tree_nodeISsEDpOT_" signature="">
@@ -2017,6 +2022,16 @@
 								<line branch="false" hits="0" number="401"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE14_M_create_nodeIIRKSsEEEPSt13_Rb_tree_nodeISsEDpOT_" signature="">
+							<lines>
+								<line branch="false" hits="36" number="401"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE14_M_create_nodeIIRKS1_EEEPSt13_Rb_tree_nodeIS1_EDpOT_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="401"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE14_M_create_nodeIIS0_ISsS4_EEEEPSt13_Rb_tree_nodeIS5_EDpOT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="401"/>
@@ -2027,24 +2042,34 @@
 								<line branch="false" hits="0" number="401"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE14_M_create_nodeIIS0_IPKcS3_EEEEPSt13_Rb_tree_nodeIS4_EDpOT_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="401"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE14_M_create_nodeIIRKS1_EEEPSt13_Rb_tree_nodeIS1_EDpOT_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="401"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE14_M_create_nodeIIS0_ISsS5_EEEEPSt13_Rb_tree_nodeIS6_EDpOT_" signature="">
 							<lines>
 								<line branch="false" hits="4" number="401"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE14_M_create_nodeIIRKSsEEEPSt13_Rb_tree_nodeISsEDpOT_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS5_E" signature="">
 							<lines>
-								<line branch="false" hits="36" number="401"/>
+								<line branch="false" hits="0" number="419"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS8_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="419"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS4_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="419"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE15_M_destroy_nodeEPSt13_Rb_tree_nodeISsE" signature="">
+							<lines>
+								<line branch="false" hits="36" number="419"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS5_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="419"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS6_E" signature="">
@@ -2062,31 +2087,6 @@
 								<line branch="false" hits="2" number="419"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE15_M_destroy_nodeEPSt13_Rb_tree_nodeISsE" signature="">
-							<lines>
-								<line branch="false" hits="36" number="419"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS5_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="419"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS8_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="419"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS4_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="419"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS5_E" signature="">
-							<lines>
-								<line branch="false" hits="0" number="419"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE13_M_clone_nodeEPKSt13_Rb_tree_nodeISsE" signature="">
 							<lines>
 								<line branch="false" hits="32" number="427"/>
@@ -2102,9 +2102,19 @@
 								<line branch="false" hits="1" number="439"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EED2Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE13_Rb_tree_implIS8_Lb1EED2Ev" signature="">
 							<lines>
-								<line branch="false" hits="1" number="439"/>
+								<line branch="false" hits="0" number="439"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="439"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE13_Rb_tree_implIS3_Lb1EED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="36" number="439"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE13_Rb_tree_implIS8_Lb1EED2Ev" signature="">
@@ -2117,19 +2127,24 @@
 								<line branch="false" hits="1" number="439"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EED2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EED2Ev" signature="">
 							<lines>
-								<line branch="false" hits="0" number="439"/>
+								<line branch="false" hits="1" number="439"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE13_Rb_tree_implIS8_Lb1EED2Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE13_Rb_tree_implIS8_Lb1EEC2Ev" signature="">
 							<lines>
-								<line branch="false" hits="0" number="439"/>
+								<line branch="false" hits="0" number="445"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE13_Rb_tree_implIS3_Lb1EED2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE13_Rb_tree_implISC_Lb1EEC2Ev" signature="">
 							<lines>
-								<line branch="false" hits="36" number="439"/>
+								<line branch="false" hits="1" number="445"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EEC2Ev" signature="">
+							<lines>
+								<line branch="false" hits="1" number="445"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE13_Rb_tree_implIS3_Lb1EEC2Ev" signature="">
@@ -2137,22 +2152,7 @@
 								<line branch="false" hits="6" number="445"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE13_Rb_tree_implIS8_Lb1EEC2Ev" signature="">
-							<lines>
-								<line branch="false" hits="1" number="445"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE13_Rb_tree_implIS5_Lb1EEC2Ev" signature="">
-							<lines>
-								<line branch="false" hits="1" number="445"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE13_Rb_tree_implISA_Lb1EEC2Ev" signature="">
-							<lines>
-								<line branch="false" hits="1" number="445"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE13_Rb_tree_implISC_Lb1EEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="445"/>
 							</lines>
@@ -2162,12 +2162,12 @@
 								<line branch="false" hits="0" number="445"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE13_Rb_tree_implIS8_Lb1EEC2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE13_Rb_tree_implIS8_Lb1EEC2Ev" signature="">
 							<lines>
-								<line branch="false" hits="0" number="445"/>
+								<line branch="false" hits="1" number="445"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EEC2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE13_Rb_tree_implISA_Lb1EEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="445"/>
 							</lines>
@@ -2182,17 +2182,17 @@
 								<line branch="false" hits="0" number="456"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE13_Rb_tree_implIS3_Lb1EE13_M_initializeEv" signature="">
-							<lines>
-								<line branch="false" hits="36" number="464"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EE13_M_initializeEv" signature="">
 							<lines>
 								<line branch="false" hits="1" number="464"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE13_Rb_tree_implISA_Lb1EE13_M_initializeEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE13_Rb_tree_implIS3_Lb1EE13_M_initializeEv" signature="">
+							<lines>
+								<line branch="false" hits="36" number="464"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE13_Rb_tree_implIS5_Lb1EE13_M_initializeEv" signature="">
 							<lines>
 								<line branch="false" hits="1" number="464"/>
 							</lines>
@@ -2202,14 +2202,9 @@
 								<line branch="false" hits="1" number="464"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE13_Rb_tree_implIS5_Lb1EE13_M_initializeEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE13_Rb_tree_implISA_Lb1EE13_M_initializeEv" signature="">
 							<lines>
 								<line branch="false" hits="1" number="464"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EE13_M_initializeEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="464"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE13_Rb_tree_implISC_Lb1EE13_M_initializeEv" signature="">
@@ -2218,6 +2213,11 @@
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE13_Rb_tree_implIS8_Lb1EE13_M_initializeEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="464"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE13_Rb_tree_implIS9_Lb1EE13_M_initializeEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="464"/>
 							</lines>
@@ -2242,29 +2242,9 @@
 								<line branch="false" hits="36" number="493"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_M_beginEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_beginEv" signature="">
 							<lines>
-								<line branch="false" hits="1" number="501"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_beginEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="501"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_beginEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="501"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_M_beginEv" signature="">
-							<lines>
-								<line branch="false" hits="44" number="501"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_beginEv" signature="">
-							<lines>
-								<line branch="false" hits="1" number="501"/>
+								<line branch="false" hits="3" number="501"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_M_beginEv" signature="">
@@ -2272,9 +2252,29 @@
 								<line branch="false" hits="5" number="501"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_beginEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_beginEv" signature="">
 							<lines>
-								<line branch="false" hits="3" number="501"/>
+								<line branch="false" hits="0" number="501"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_beginEv" signature="">
+							<lines>
+								<line branch="false" hits="1" number="501"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_M_beginEv" signature="">
+							<lines>
+								<line branch="false" hits="44" number="501"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_beginEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="501"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_M_beginEv" signature="">
+							<lines>
+								<line branch="false" hits="1" number="501"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE8_M_beginEv" signature="">
@@ -2282,14 +2282,14 @@
 								<line branch="false" hits="3" number="501"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_beginEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="505"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_M_beginEv" signature="">
 							<lines>
 								<line branch="false" hits="1" number="505"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_beginEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="505"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_M_beginEv" signature="">
@@ -2302,27 +2302,12 @@
 								<line branch="false" hits="34" number="505"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_M_endEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="512"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE6_M_endEv" signature="">
-							<lines>
-								<line branch="false" hits="8" number="512"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE6_M_endEv" signature="">
 							<lines>
 								<line branch="false" hits="2" number="512"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE6_M_endEv" signature="">
-							<lines>
-								<line branch="false" hits="0" number="512"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_M_endEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_M_endEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="512"/>
 							</lines>
@@ -2337,14 +2322,19 @@
 								<line branch="false" hits="48" number="512"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_M_endEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE6_M_endEv" signature="">
 							<lines>
-								<line branch="false" hits="0" number="516"/>
+								<line branch="false" hits="8" number="512"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE6_M_endEv" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE6_M_endEv" signature="">
 							<lines>
-								<line branch="false" hits="2" number="516"/>
+								<line branch="false" hits="0" number="512"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_M_endEv" signature="">
+							<lines>
+								<line branch="false" hits="0" number="512"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE6_M_endEv" signature="">
@@ -2357,14 +2347,14 @@
 								<line branch="false" hits="0" number="516"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_valueEPKSt13_Rb_tree_nodeIS5_E" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE6_M_endEv" signature="">
 							<lines>
-								<line branch="false" hits="0" number="520"/>
+								<line branch="false" hits="2" number="516"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_S_valueEPKSt13_Rb_tree_nodeIS6_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_M_endEv" signature="">
 							<lines>
-								<line branch="false" hits="7" number="520"/>
+								<line branch="false" hits="0" number="516"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE8_S_valueEPKSt13_Rb_tree_nodeIS1_E" signature="">
@@ -2372,12 +2362,7 @@
 								<line branch="false" hits="1" number="520"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_S_valueEPKSt13_Rb_tree_nodeISsE" signature="">
-							<lines>
-								<line branch="false" hits="2" number="520"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_S_valueEPKSt13_Rb_tree_nodeIS8_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_valueEPKSt13_Rb_tree_nodeIS4_E" signature="">
 							<lines>
 								<line branch="false" hits="0" number="520"/>
 							</lines>
@@ -2392,24 +2377,24 @@
 								<line branch="false" hits="0" number="520"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_valueEPKSt13_Rb_tree_nodeIS4_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_valueEPKSt13_Rb_tree_nodeIS5_E" signature="">
 							<lines>
 								<line branch="false" hits="0" number="520"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE6_S_keyEPKSt13_Rb_tree_nodeIS6_E" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_S_valueEPKSt13_Rb_tree_nodeIS6_E" signature="">
 							<lines>
-								<line branch="false" hits="7" number="524"/>
+								<line branch="false" hits="7" number="520"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE6_S_keyEPKSt13_Rb_tree_nodeIS8_E" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_S_valueEPKSt13_Rb_tree_nodeIS8_E" signature="">
 							<lines>
-								<line branch="false" hits="0" number="524"/>
+								<line branch="false" hits="0" number="520"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_S_keyEPKSt13_Rb_tree_nodeIS4_E" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_S_valueEPKSt13_Rb_tree_nodeISsE" signature="">
 							<lines>
-								<line branch="false" hits="0" number="524"/>
+								<line branch="false" hits="2" number="520"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE6_S_keyEPKSt13_Rb_tree_nodeISsE" signature="">
@@ -2420,6 +2405,11 @@
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE6_S_keyEPKSt13_Rb_tree_nodeIS1_E" signature="">
 							<lines>
 								<line branch="false" hits="1" number="524"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE6_S_keyEPKSt13_Rb_tree_nodeIS6_E" signature="">
+							<lines>
+								<line branch="false" hits="7" number="524"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE6_S_keyEPKSt13_Rb_tree_nodeIS5_E" signature="">
@@ -2437,9 +2427,29 @@
 								<line branch="false" hits="0" number="524"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE6_S_keyEPKSt13_Rb_tree_nodeIS8_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="524"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_S_keyEPKSt13_Rb_tree_nodeIS4_E" signature="">
+							<lines>
+								<line branch="false" hits="0" number="524"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE7_S_leftEPSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="9" number="528"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE7_S_leftEPSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="0" number="528"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE7_S_leftEPSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="0" number="528"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE7_S_leftEPSt18_Rb_tree_node_base" signature="">
@@ -2447,7 +2457,7 @@
 								<line branch="false" hits="36" number="528"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE7_S_leftEPSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE7_S_leftEPSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="0" number="528"/>
 							</lines>
@@ -2462,16 +2472,6 @@
 								<line branch="false" hits="0" number="528"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE7_S_leftEPSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="0" number="528"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE7_S_leftEPSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="0" number="528"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE7_S_leftEPSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="2" number="528"/>
@@ -2482,14 +2482,14 @@
 								<line branch="false" hits="0" number="532"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE7_S_leftEPKSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="1" number="532"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE7_S_leftEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="34" number="532"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE7_S_leftEPKSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="1" number="532"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE7_S_leftEPKSt18_Rb_tree_node_base" signature="">
@@ -2497,22 +2497,7 @@
 								<line branch="false" hits="0" number="532"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="0" number="536"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="0" number="536"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="0" number="536"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="0" number="536"/>
 							</lines>
@@ -2522,14 +2507,29 @@
 								<line branch="false" hits="4" number="536"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_S_rightEPSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="36" number="536"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="0" number="536"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="0" number="536"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="0" number="536"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="0" number="536"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_S_rightEPSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="36" number="536"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE8_S_rightEPSt18_Rb_tree_node_base" signature="">
@@ -2537,12 +2537,17 @@
 								<line branch="false" hits="3" number="536"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_rightEPKSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="0" number="540"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_S_rightEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="1" number="540"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_rightEPKSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_S_rightEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="0" number="540"/>
 							</lines>
@@ -2552,32 +2557,12 @@
 								<line branch="false" hits="0" number="540"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_S_rightEPKSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="0" number="540"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="4" number="544"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="0" number="544"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="0" number="544"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
-							<lines>
-								<line branch="false" hits="2" number="544"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="0" number="544"/>
 							</lines>
@@ -2587,9 +2572,9 @@
 								<line branch="false" hits="2" number="544"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
-								<line branch="false" hits="0" number="544"/>
+								<line branch="false" hits="4" number="544"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
@@ -2597,19 +2582,19 @@
 								<line branch="false" hits="0" number="544"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
-								<line branch="false" hits="0" number="548"/>
+								<line branch="false" hits="0" number="544"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
-								<line branch="false" hits="2" number="548"/>
+								<line branch="false" hits="0" number="544"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE8_S_valueEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
-								<line branch="false" hits="0" number="548"/>
+								<line branch="false" hits="2" number="544"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
@@ -2617,7 +2602,17 @@
 								<line branch="false" hits="0" number="548"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="2" number="548"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="0" number="548"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="0" number="548"/>
 							</lines>
@@ -2627,12 +2622,17 @@
 								<line branch="false" hits="4" number="548"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
+							<lines>
+								<line branch="false" hits="0" number="548"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="0" number="548"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE6_S_keyEPKSt18_Rb_tree_node_base" signature="">
 							<lines>
 								<line branch="false" hits="2" number="548"/>
 							</lines>
@@ -2647,9 +2647,14 @@
 								<line branch="false" hits="32" number="560"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EEC2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="648"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEEC2Ev" signature="">
+							<lines>
+								<line branch="false" hits="6" number="648"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EEC2Ev" signature="">
@@ -2657,7 +2662,7 @@
 								<line branch="false" hits="1" number="648"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EEC2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="648"/>
 							</lines>
@@ -2677,11 +2682,6 @@
 								<line branch="false" hits="1" number="648"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEEC2Ev" signature="">
-							<lines>
-								<line branch="false" hits="6" number="648"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="648"/>
@@ -2692,9 +2692,9 @@
 								<line branch="false" hits="30" number="654"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EED2Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EED2Ev" signature="">
 							<lines>
-								<line branch="false" hits="1" number="670"/>
+								<line branch="false" hits="0" number="670"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EED2Ev" signature="">
@@ -2702,7 +2702,27 @@
 								<line branch="false" hits="0" number="670"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="1" number="670"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="36" number="670"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="1" number="670"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EED2Ev" signature="">
+							<lines>
+								<line branch="false" hits="1" number="670"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="670"/>
 							</lines>
@@ -2712,29 +2732,24 @@
 								<line branch="false" hits="1" number="670"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EED2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE5beginEv" signature="">
 							<lines>
-								<line branch="false" hits="0" number="670"/>
+								<line branch="false" hits="1" number="682"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEED2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE5beginEv" signature="">
 							<lines>
-								<line branch="false" hits="36" number="670"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="1" number="670"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EED2Ev" signature="">
-							<lines>
-								<line branch="false" hits="1" number="670"/>
+								<line branch="false" hits="4" number="682"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE5beginEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="682"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE5beginEv" signature="">
+							<lines>
+								<line branch="false" hits="4" number="682"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE5beginEv" signature="">
@@ -2747,24 +2762,9 @@
 								<line branch="false" hits="1" number="682"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE5beginEv" signature="">
-							<lines>
-								<line branch="false" hits="4" number="682"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE5beginEv" signature="">
-							<lines>
-								<line branch="false" hits="1" number="682"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE5beginEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="682"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE5beginEv" signature="">
-							<lines>
-								<line branch="false" hits="4" number="682"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE5beginEv" signature="">
@@ -2797,9 +2797,9 @@
 								<line branch="false" hits="0" number="696"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE3endEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE3endEv" signature="">
 							<lines>
-								<line branch="false" hits="1" number="700"/>
+								<line branch="false" hits="2" number="700"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE3endEv" signature="">
@@ -2807,14 +2807,14 @@
 								<line branch="false" hits="8" number="700"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE3endEv" signature="">
+							<lines>
+								<line branch="false" hits="1" number="700"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE3endEv" signature="">
 							<lines>
 								<line branch="false" hits="0" number="700"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE3endEv" signature="">
-							<lines>
-								<line branch="false" hits="2" number="700"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE5emptyEv" signature="">
@@ -2852,21 +2852,6 @@
 								<line branch="false" hits="2" number="987"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE10_M_insert_ISsEESt17_Rb_tree_iteratorISsEPSt18_Rb_tree_node_baseSA_OT_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="1012"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE10_M_insert_IRKSsEESt17_Rb_tree_iteratorISsEPSt18_Rb_tree_node_baseSC_OT_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="1012"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE10_M_insert_IS0_ISsS5_EEESt17_Rb_tree_iteratorIS6_EPSt18_Rb_tree_node_baseSI_OT_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="1012"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE10_M_insert_IRKS1_EESt17_Rb_tree_iteratorIS1_EPSt18_Rb_tree_node_baseSE_OT_" signature="">
 							<lines>
 								<line branch="false" hits="2" number="1012"/>
@@ -2882,12 +2867,27 @@
 								<line branch="false" hits="0" number="1012"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE10_M_insert_IS0_ISsS4_EEESt17_Rb_tree_iteratorIS5_EPSt18_Rb_tree_node_baseSH_OT_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE10_M_insert_IS0_IPKcS3_EEESt17_Rb_tree_iteratorIS4_EPSt18_Rb_tree_node_baseSI_OT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="1012"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE10_M_insert_IS0_IPKcS3_EEESt17_Rb_tree_iteratorIS4_EPSt18_Rb_tree_node_baseSI_OT_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE10_M_insert_IS0_ISsS5_EEESt17_Rb_tree_iteratorIS6_EPSt18_Rb_tree_node_baseSI_OT_" signature="">
+							<lines>
+								<line branch="false" hits="4" number="1012"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE10_M_insert_IRKSsEESt17_Rb_tree_iteratorISsEPSt18_Rb_tree_node_baseSC_OT_" signature="">
+							<lines>
+								<line branch="false" hits="4" number="1012"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE10_M_insert_ISsEESt17_Rb_tree_iteratorISsEPSt18_Rb_tree_node_baseSA_OT_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1012"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE10_M_insert_IS0_ISsS4_EEESt17_Rb_tree_iteratorIS5_EPSt18_Rb_tree_node_baseSH_OT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="1012"/>
 							</lines>
@@ -2902,17 +2902,12 @@
 								<line branch="false" hits="5" number="1119"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_M_eraseEPSt13_Rb_tree_nodeISsE" signature="">
 							<lines>
-								<line branch="false" hits="1" number="1119"/>
+								<line branch="false" hits="76" number="1119"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E" signature="">
-							<lines>
-								<line branch="false" hits="1" number="1119"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E" signature="">
 							<lines>
 								<line branch="false" hits="1" number="1119"/>
 							</lines>
@@ -2922,14 +2917,14 @@
 								<line branch="false" hits="0" number="1119"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E" signature="">
 							<lines>
-								<line branch="false" hits="0" number="1119"/>
+								<line branch="false" hits="1" number="1119"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE8_M_eraseEPSt13_Rb_tree_nodeISsE" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E" signature="">
 							<lines>
-								<line branch="false" hits="76" number="1119"/>
+								<line branch="false" hits="1" number="1119"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE8_M_eraseEPSt13_Rb_tree_nodeIS1_E" signature="">
@@ -2937,9 +2932,9 @@
 								<line branch="false" hits="3" number="1119"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS5_ESE_RS1_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E" signature="">
 							<lines>
-								<line branch="false" hits="0" number="1136"/>
+								<line branch="false" hits="0" number="1119"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS5_ESE_RS1_" signature="">
@@ -2947,9 +2942,19 @@
 								<line branch="false" hits="2" number="1136"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS5_ESE_RS1_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1136"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS4_ESD_RS1_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="1136"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE14_M_lower_boundEPKSt13_Rb_tree_nodeIS8_ESI_RS1_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1152"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE14_M_lower_boundEPKSt13_Rb_tree_nodeIS6_ESG_RS1_" signature="">
@@ -2962,11 +2967,6 @@
 								<line branch="false" hits="2" number="1152"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE14_M_lower_boundEPKSt13_Rb_tree_nodeIS8_ESI_RS1_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="1152"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE14_M_lower_boundEPKSt13_Rb_tree_nodeIS4_ESE_RS1_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="1152"/>
@@ -2977,22 +2977,12 @@
 								<line branch="false" hits="0" number="1261"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE24_M_get_insert_unique_posERKS1_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="1314"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE24_M_get_insert_unique_posERS1_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="1314"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE24_M_get_insert_unique_posERS1_" signature="">
 							<lines>
 								<line branch="false" hits="4" number="1314"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE24_M_get_insert_unique_posERS1_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE24_M_get_insert_unique_posERS1_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="1314"/>
 							</lines>
@@ -3002,24 +2992,34 @@
 								<line branch="false" hits="0" number="1314"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE24_M_get_insert_unique_posERS1_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="1314"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE24_M_get_insert_unique_posERKSs" signature="">
 							<lines>
 								<line branch="false" hits="4" number="1314"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE16_M_insert_uniqueIS0_ISsS3_EEES0_ISt17_Rb_tree_iteratorIS4_EbEOT_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE24_M_get_insert_unique_posERS1_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1314"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE24_M_get_insert_unique_posERS1_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1314"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE24_M_get_insert_unique_posERKS1_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="1314"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueIS0_ISsS4_EEES0_ISt17_Rb_tree_iteratorIS5_EbEOT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="1368"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE16_M_insert_uniqueISsEESt4pairISt17_Rb_tree_iteratorISsEbEOT_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE16_M_insert_uniqueIRKSsEESt4pairISt17_Rb_tree_iteratorISsEbEOT_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="1368"/>
+								<line branch="false" hits="4" number="1368"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE16_M_insert_uniqueIS0_ISsS5_EEES0_ISt17_Rb_tree_iteratorIS6_EbEOT_" signature="">
@@ -3027,7 +3027,22 @@
 								<line branch="false" hits="4" number="1368"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE16_M_insert_uniqueIRKS1_EESt4pairISt17_Rb_tree_iteratorIS1_EbEOT_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="1368"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE16_M_insert_uniqueISsEESt4pairISt17_Rb_tree_iteratorISsEbEOT_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1368"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueIS0_ISsS4_EEES0_ISt17_Rb_tree_iteratorIS5_EbEOT_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1368"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE16_M_insert_uniqueIS0_ISsS3_EEES0_ISt17_Rb_tree_iteratorIS4_EbEOT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="1368"/>
 							</lines>
@@ -3037,24 +3052,9 @@
 								<line branch="false" hits="0" number="1368"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeIN5Catch8TestCaseES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE16_M_insert_uniqueIRKS1_EESt4pairISt17_Rb_tree_iteratorIS1_EbEOT_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE4findERS1_" signature="">
 							<lines>
-								<line branch="false" hits="2" number="1368"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE16_M_insert_uniqueIRKSsEESt4pairISt17_Rb_tree_iteratorISsEbEOT_" signature="">
-							<lines>
-								<line branch="false" hits="4" number="1368"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueIS0_ISsS4_EEES0_ISt17_Rb_tree_iteratorIS5_EbEOT_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="1368"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE4findERS1_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="1789"/>
+								<line branch="false" hits="0" number="1789"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch14IGeneratorInfoEESt10_Select1stIS5_ESt4lessISsESaIS5_EE4findERS1_" signature="">
@@ -3062,14 +3062,9 @@
 								<line branch="false" hits="0" number="1789"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsN5Catch7TagInfoEESt10_Select1stIS4_ESt4lessISsESaIS4_EE4findERS1_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt8_Rb_treeISsSt4pairIKSsPN5Catch18IGeneratorsForTestEESt10_Select1stIS5_ESt4lessISsESaIS5_EE4findERS1_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="1789"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE4findERKSs" signature="">
-							<lines>
-								<line branch="false" hits="2" number="1802"/>
+								<line branch="false" hits="2" number="1789"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeIiSt4pairIKiN5Catch5Clara11CommandLineINS2_10ConfigDataEE3ArgEESt10_Select1stIS8_ESt4lessIiESaIS8_EE4findERS1_" signature="">
@@ -3080,6 +3075,11 @@
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch8TagAliasEESt10_Select1stIS4_ESt4lessISsESaIS4_EE4findERS1_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="1802"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE4findERKSs" signature="">
+							<lines>
+								<line branch="false" hits="2" number="1802"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt8_Rb_treeISsSt4pairIKSsN5Catch3PtrINS2_16IReporterFactoryEEEESt10_Select1stIS6_ESt4lessISsESaIS6_EE4findERS1_" signature="">
@@ -3536,24 +3536,24 @@
 								<line branch="false" hits="0" number="63"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt14default_deleteIN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgEEclEPS5_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="63"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt14default_deleteIKN5Catch7IStreamEEclEPS2_" signature="">
 							<lines>
 								<line branch="false" hits="1" number="63"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt10unique_ptrIN5Catch13StreamBufBaseESt14default_deleteIS1_EEC2EPS1_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt14default_deleteIN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgEEclEPS5_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="141"/>
+								<line branch="false" hits="1" number="63"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10unique_ptrIKN5Catch7IStreamESt14default_deleteIS2_EEC2EPS2_" signature="">
 							<lines>
 								<line branch="false" hits="1" number="141"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt10unique_ptrIN5Catch13StreamBufBaseESt14default_deleteIS1_EEC2EPS1_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="141"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt10unique_ptrIN5Catch13StreamBufBaseESt14default_deleteIS1_EED2Ev" signature="">
@@ -3581,9 +3581,9 @@
 								<line branch="false" hits="0" number="226"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt10unique_ptrIN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EE3getEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt10unique_ptrIKN5Catch7IStreamESt14default_deleteIS2_EE3getEv" signature="">
 							<lines>
-								<line branch="false" hits="3" number="233"/>
+								<line branch="false" hits="1" number="233"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNKSt10unique_ptrIN5Catch13StreamBufBaseESt14default_deleteIS1_EE3getEv" signature="">
@@ -3591,12 +3591,12 @@
 								<line branch="false" hits="0" number="233"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt10unique_ptrIKN5Catch7IStreamESt14default_deleteIS2_EE3getEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNKSt10unique_ptrIN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EE3getEv" signature="">
 							<lines>
-								<line branch="false" hits="1" number="233"/>
+								<line branch="false" hits="3" number="233"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10unique_ptrIKN5Catch7IStreamESt14default_deleteIS2_EE11get_deleterEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10unique_ptrIN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EE11get_deleterEv" signature="">
 							<lines>
 								<line branch="false" hits="1" number="237"/>
 							</lines>
@@ -3606,7 +3606,7 @@
 								<line branch="false" hits="0" number="237"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10unique_ptrIN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EE11get_deleterEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10unique_ptrIKN5Catch7IStreamESt14default_deleteIS2_EE11get_deleterEv" signature="">
 							<lines>
 								<line branch="false" hits="1" number="237"/>
 							</lines>
@@ -3771,12 +3771,12 @@
 				</class>
 				<class branch-rate="0.0" complexity="0" filename="../../../../../../../opt/Programs/buildroot-at91/output/host/usr/arm-buildroot-linux-gnueabi/include/c++/4.8.2/sstream" line-rate="0.0" name=".....................opt.Programs.buildroot-at91.output.host.usr.arm-buildroot-linux-gnueabi.include.c++.4.8.2.sstream">
 					<methods>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="64"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev" signature="">
 							<lines>
 								<line branch="false" hits="0" number="64"/>
 							</lines>
@@ -3788,19 +3788,19 @@
 				</class>
 				<class branch-rate="0.0" complexity="0" filename="../../../../../../../opt/Programs/buildroot-at91/output/host/usr/arm-buildroot-linux-gnueabi/include/c++/4.8.2/tuple" line-rate="1.0" name=".....................opt.Programs.buildroot-at91.output.host.usr.arm-buildroot-linux-gnueabi.include.c++.4.8.2.tuple">
 					<methods>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Head_baseILj1ESt14default_deleteIKN5Catch7IStreamEELb1EEC2IS4_vEEOT_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="94"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt10_Head_baseILj1ESt14default_deleteIN5Catch13StreamBufBaseEELb1EEC2IS3_vEEOT_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="94"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt10_Head_baseILj1ESt14default_deleteIN5Catch13StreamBufBaseEELb1EE7_M_headERS4_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Head_baseILj1ESt14default_deleteIKN5Catch7IStreamEELb1EEC2IS4_vEEOT_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="121"/>
+								<line branch="false" hits="1" number="94"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Head_baseILj1ESt14default_deleteIN5Catch5Clara11CommandLineINS1_10ConfigDataEE3ArgEELb1EE7_M_headERS8_" signature="">
+							<lines>
+								<line branch="false" hits="1" number="121"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Head_baseILj1ESt14default_deleteIKN5Catch7IStreamEELb1EE7_M_headERS5_" signature="">
@@ -3808,9 +3808,9 @@
 								<line branch="false" hits="1" number="121"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Head_baseILj1ESt14default_deleteIN5Catch5Clara11CommandLineINS1_10ConfigDataEE3ArgEELb1EE7_M_headERS8_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt10_Head_baseILj1ESt14default_deleteIN5Catch13StreamBufBaseEELb1EE7_M_headERS4_" signature="">
 							<lines>
-								<line branch="false" hits="1" number="121"/>
+								<line branch="false" hits="0" number="121"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Head_baseILj0EPKN5Catch7IStreamELb0EEC2IRS3_vEEOT_" signature="">
@@ -3838,11 +3838,6 @@
 								<line branch="false" hits="1" number="167"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Head_baseILj0EPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgELb0EE7_M_headERKS7_" signature="">
-							<lines>
-								<line branch="false" hits="3" number="170"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt10_Head_baseILj0EPN5Catch13StreamBufBaseELb0EE7_M_headERKS3_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="170"/>
@@ -3853,17 +3848,27 @@
 								<line branch="false" hits="1" number="170"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt10_Head_baseILj0EPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgELb0EE7_M_headERKS7_" signature="">
+							<lines>
+								<line branch="false" hits="3" number="170"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj2EIEEC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="195"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIN5Catch13StreamBufBaseEEEE7_M_headERS4_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIKN5Catch7IStreamEEEE7_M_headERS5_" signature="">
 							<lines>
-								<line branch="false" hits="0" number="239"/>
+								<line branch="false" hits="1" number="239"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj0EIPKN5Catch7IStreamESt14default_deleteIS2_EEE7_M_headERS6_" signature="">
+							<lines>
+								<line branch="false" hits="1" number="239"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIN5Catch5Clara11CommandLineINS1_10ConfigDataEE3ArgEEEE7_M_headERS8_" signature="">
 							<lines>
 								<line branch="false" hits="1" number="239"/>
 							</lines>
@@ -3873,24 +3878,14 @@
 								<line branch="false" hits="0" number="239"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIKN5Catch7IStreamEEEE7_M_headERS5_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="239"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj0EIPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EEE7_M_headERS9_" signature="">
 							<lines>
 								<line branch="false" hits="2" number="239"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIN5Catch5Clara11CommandLineINS1_10ConfigDataEE3ArgEEEE7_M_headERS8_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIN5Catch13StreamBufBaseEEEE7_M_headERS4_" signature="">
 							<lines>
-								<line branch="false" hits="1" number="239"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt11_Tuple_implILj0EIPN5Catch13StreamBufBaseESt14default_deleteIS1_EEE7_M_headERKS5_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="242"/>
+								<line branch="false" hits="0" number="239"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj0EIPKN5Catch7IStreamESt14default_deleteIS2_EEE7_M_headERKS6_" signature="">
@@ -3898,17 +3893,17 @@
 								<line branch="false" hits="1" number="242"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt11_Tuple_implILj0EIPN5Catch13StreamBufBaseESt14default_deleteIS1_EEE7_M_headERKS5_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="242"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj0EIPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EEE7_M_headERKS9_" signature="">
 							<lines>
 								<line branch="false" hits="3" number="242"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIKN5Catch7IStreamEEEEC2IS4_IEvEEOT_DpOT0_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="260"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt11_Tuple_implILj0EIPN5Catch13StreamBufBaseESt14default_deleteIS1_EEEC2IRS2_IS4_EvEEOT_DpOT0_" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIN5Catch13StreamBufBaseEEEEC2IS3_IEvEEOT_DpOT0_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="260"/>
 							</lines>
@@ -3918,7 +3913,12 @@
 								<line branch="false" hits="1" number="260"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIN5Catch13StreamBufBaseEEEEC2IS3_IEvEEOT_DpOT0_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZNSt11_Tuple_implILj1EISt14default_deleteIKN5Catch7IStreamEEEEC2IS4_IEvEEOT_DpOT0_" signature="">
+							<lines>
+								<line branch="false" hits="1" number="260"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZNSt11_Tuple_implILj0EIPN5Catch13StreamBufBaseESt14default_deleteIS1_EEEC2IRS2_IS4_EvEEOT_DpOT0_" signature="">
 							<lines>
 								<line branch="false" hits="0" number="260"/>
 							</lines>
@@ -3933,17 +3933,7 @@
 								<line branch="false" hits="1" number="537"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZSt12__get_helperILj0EPKN5Catch7IStreamEISt14default_deleteIS2_EEENSt9__add_refIT0_E4typeERSt11_Tuple_implIXT_EIS7_DpT1_EE" signature="">
-							<lines>
-								<line branch="false" hits="1" number="742"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZSt12__get_helperILj1ESt14default_deleteIN5Catch5Clara11CommandLineINS1_10ConfigDataEE3ArgEEIEENSt9__add_refIT0_E4typeERSt11_Tuple_implIXT_EIS9_DpT1_EE" signature="">
-							<lines>
-								<line branch="false" hits="1" number="742"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZSt12__get_helperILj1ESt14default_deleteIKN5Catch7IStreamEEIEENSt9__add_refIT0_E4typeERSt11_Tuple_implIXT_EIS6_DpT1_EE" signature="">
 							<lines>
 								<line branch="false" hits="1" number="742"/>
 							</lines>
@@ -3963,6 +3953,16 @@
 								<line branch="false" hits="0" number="742"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZSt12__get_helperILj1ESt14default_deleteIKN5Catch7IStreamEEIEENSt9__add_refIT0_E4typeERSt11_Tuple_implIXT_EIS6_DpT1_EE" signature="">
+							<lines>
+								<line branch="false" hits="1" number="742"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZSt12__get_helperILj0EPKN5Catch7IStreamEISt14default_deleteIS2_EEENSt9__add_refIT0_E4typeERSt11_Tuple_implIXT_EIS7_DpT1_EE" signature="">
+							<lines>
+								<line branch="false" hits="1" number="742"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZSt12__get_helperILj0EPN5Catch13StreamBufBaseEISt14default_deleteIS1_EEENSt11__add_c_refIT0_E4typeERKSt11_Tuple_implIXT_EIS6_DpT1_EE" signature="">
 							<lines>
 								<line branch="false" hits="0" number="747"/>
@@ -3976,21 +3976,6 @@
 						<method branch-rate="1.0" line-rate="1.0" name="_ZSt12__get_helperILj0EPKN5Catch7IStreamEISt14default_deleteIS2_EEENSt11__add_c_refIT0_E4typeERKSt11_Tuple_implIXT_EIS7_DpT1_EE" signature="">
 							<lines>
 								<line branch="false" hits="1" number="747"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj1EIPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EEENSt9__add_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERSE_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="757"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj1EIPKN5Catch7IStreamESt14default_deleteIS2_EEENSt9__add_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERSB_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="757"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj0EIPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EEENSt9__add_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERSE_" signature="">
-							<lines>
-								<line branch="false" hits="2" number="757"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj0EIPKN5Catch7IStreamESt14default_deleteIS2_EEENSt9__add_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERSB_" signature="">
@@ -4008,19 +3993,34 @@
 								<line branch="false" hits="0" number="757"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj0EIPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EEENSt9__add_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERSE_" signature="">
+							<lines>
+								<line branch="false" hits="2" number="757"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj1EIPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EEENSt9__add_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERSE_" signature="">
+							<lines>
+								<line branch="false" hits="1" number="757"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj1EIPKN5Catch7IStreamESt14default_deleteIS2_EEENSt9__add_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERSB_" signature="">
+							<lines>
+								<line branch="false" hits="1" number="757"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj0EIPN5Catch5Clara11CommandLineINS0_10ConfigDataEE3ArgESt14default_deleteIS5_EEENSt11__add_c_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERKSE_" signature="">
 							<lines>
 								<line branch="false" hits="3" number="764"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZSt3getILj0EIPN5Catch13StreamBufBaseESt14default_deleteIS1_EEENSt11__add_c_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERKSA_" signature="">
-							<lines>
-								<line branch="false" hits="0" number="764"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZSt3getILj0EIPKN5Catch7IStreamESt14default_deleteIS2_EEENSt11__add_c_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERKSB_" signature="">
 							<lines>
 								<line branch="false" hits="1" number="764"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZSt3getILj0EIPN5Catch13StreamBufBaseESt14default_deleteIS1_EEENSt11__add_c_refINSt13tuple_elementIXT_ESt5tupleIIDpT0_EEE4typeEE4typeERKSA_" signature="">
+							<lines>
+								<line branch="false" hits="0" number="764"/>
 							</lines>
 						</method>
 					</methods>
@@ -4056,14 +4056,9 @@
 			<classes>
 				<class branch-rate="0.0" complexity="0" filename="../../../../../../../opt/Programs/buildroot-at91/output/host/usr/arm-buildroot-linux-gnueabi/include/c++/4.8.2/ext/alloc_traits.h" line-rate="1.0" name=".....................opt.Programs.buildroot-at91.output.host.usr.arm-buildroot-linux-gnueabi.include.c++.4.8.2.ext.alloc_traits.h">
 					<methods>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaISsEE17_S_select_on_copyERKS1_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch11MessageInfoEEE17_S_select_on_copyERKS3_" signature="">
 							<lines>
-								<line branch="false" hits="35" number="166"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch8TestCaseEEE17_S_select_on_copyERKS3_" signature="">
-							<lines>
-								<line branch="false" hits="1" number="166"/>
+								<line branch="false" hits="8" number="166"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch8TestSpec6FilterEEE17_S_select_on_copyERKS4_" signature="">
@@ -4071,14 +4066,14 @@
 								<line branch="false" hits="2" number="166"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch11MessageInfoEEE17_S_select_on_copyERKS3_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch3PtrINS1_8TestSpec7PatternEEEEE17_S_select_on_copyERKS6_" signature="">
 							<lines>
-								<line branch="false" hits="8" number="166"/>
+								<line branch="false" hits="2" number="166"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch3PtrINS1_16IReporterFactoryEEEEE17_S_select_on_copyERKS5_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaISsEE17_S_select_on_copyERKS1_" signature="">
 							<lines>
-								<line branch="false" hits="1" number="166"/>
+								<line branch="false" hits="35" number="166"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch5Clara6Parser5TokenEEE17_S_select_on_copyERKS5_" signature="">
@@ -4086,9 +4081,14 @@
 								<line branch="false" hits="0" number="166"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch3PtrINS1_8TestSpec7PatternEEEEE17_S_select_on_copyERKS6_" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch3PtrINS1_16IReporterFactoryEEEEE17_S_select_on_copyERKS5_" signature="">
 							<lines>
-								<line branch="false" hits="2" number="166"/>
+								<line branch="false" hits="1" number="166"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch8TestCaseEEE17_S_select_on_copyERKS3_" signature="">
+							<lines>
+								<line branch="false" hits="1" number="166"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch3PtrINS1_22CumulativeReporterBase4NodeINS1_14TestGroupStatsENS4_INS1_13TestCaseStatsENS3_11SectionNodeEEEEEEEEE10_S_on_swapERSB_SD_" signature="">
@@ -4106,12 +4106,12 @@
 								<line branch="false" hits="3" number="175"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch8TestCaseEEE27_S_propagate_on_move_assignEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch8TestSpec6FilterEEE27_S_propagate_on_move_assignEv" signature="">
 							<lines>
 								<line branch="false" hits="1" number="175"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch8TestSpec6FilterEEE27_S_propagate_on_move_assignEv" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN9__gnu_cxx14__alloc_traitsISaIN5Catch8TestCaseEEE27_S_propagate_on_move_assignEv" signature="">
 							<lines>
 								<line branch="false" hits="1" number="175"/>
 							</lines>
@@ -4247,17 +4247,17 @@
 								<line branch="false" hits="1" number="13"/>
 							</lines>
 						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_Z41__static_initialization_and_destruction_0ii" signature="">
+							<lines>
+								<line branch="false" hits="1" number="48"/>
+							</lines>
+						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_GLOBAL__sub_D_statisticsDisplayUnitTest.cpp" signature="">
 							<lines>
 								<line branch="false" hits="0" number="48"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_GLOBAL__sub_I_statisticsDisplayUnitTest.cpp" signature="">
-							<lines>
-								<line branch="false" hits="1" number="48"/>
-							</lines>
-						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_Z41__static_initialization_and_destruction_0ii" signature="">
 							<lines>
 								<line branch="false" hits="1" number="48"/>
 							</lines>
@@ -4482,9 +4482,9 @@
 								<line branch="false" hits="0" number="27"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_GLOBAL__sub_D__ZN14WeatherStation24CurrentConditionsDisplayC2EPNS_7SubjectE" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_Z41__static_initialization_and_destruction_0ii" signature="">
 							<lines>
-								<line branch="false" hits="0" number="37"/>
+								<line branch="false" hits="1" number="37"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_GLOBAL__sub_I__ZN14WeatherStation24CurrentConditionsDisplayC2EPNS_7SubjectE" signature="">
@@ -4492,9 +4492,9 @@
 								<line branch="false" hits="1" number="37"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_Z41__static_initialization_and_destruction_0ii" signature="">
+						<method branch-rate="0.0" line-rate="0.0" name="_GLOBAL__sub_D__ZN14WeatherStation24CurrentConditionsDisplayC2EPNS_7SubjectE" signature="">
 							<lines>
-								<line branch="false" hits="1" number="37"/>
+								<line branch="false" hits="0" number="37"/>
 							</lines>
 						</method>
 					</methods>
@@ -4530,14 +4530,14 @@
 								<line branch="false" hits="2" number="5"/>
 							</lines>
 						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_ZN14WeatherStation8ObserverD0Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="12"/>
-							</lines>
-						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation8ObserverD2Ev" signature="">
 							<lines>
 								<line branch="false" hits="2" number="12"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_ZN14WeatherStation8ObserverD0Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="12"/>
 							</lines>
 						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_ZN14WeatherStation8Observer6updateEfff" signature="">
@@ -4633,17 +4633,17 @@
 								<line branch="false" hits="0" number="31"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_Z41__static_initialization_and_destruction_0ii" signature="">
-							<lines>
-								<line branch="false" hits="1" number="35"/>
-							</lines>
-						</method>
 						<method branch-rate="0.0" line-rate="0.0" name="_GLOBAL__sub_D__ZN14WeatherStation16HeatIndexDisplayC2EPNS_7SubjectE" signature="">
 							<lines>
 								<line branch="false" hits="0" number="35"/>
 							</lines>
 						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_GLOBAL__sub_I__ZN14WeatherStation16HeatIndexDisplayC2EPNS_7SubjectE" signature="">
+							<lines>
+								<line branch="false" hits="1" number="35"/>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="_Z41__static_initialization_and_destruction_0ii" signature="">
 							<lines>
 								<line branch="false" hits="1" number="35"/>
 							</lines>
@@ -4691,12 +4691,12 @@
 								<line branch="false" hits="1" number="6"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation14ForcastDisplayD2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation14ForcastDisplayD0Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="13"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation14ForcastDisplayD0Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation14ForcastDisplayD2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="13"/>
 							</lines>
@@ -4824,12 +4824,12 @@
 								<line branch="false" hits="2" number="10"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation11WeatherDataD0Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation11WeatherDataD2Ev" signature="">
 							<lines>
 								<line branch="false" hits="2" number="16"/>
 							</lines>
 						</method>
-						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation11WeatherDataD2Ev" signature="">
+						<method branch-rate="1.0" line-rate="1.0" name="_ZN14WeatherStation11WeatherDataD0Ev" signature="">
 							<lines>
 								<line branch="false" hits="2" number="16"/>
 							</lines>
@@ -4854,6 +4854,11 @@
 								<line branch="false" hits="10" number="67"/>
 							</lines>
 						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_GLOBAL__sub_D__ZN14WeatherStation11WeatherDataC2Ev" signature="">
+							<lines>
+								<line branch="false" hits="0" number="78"/>
+							</lines>
+						</method>
 						<method branch-rate="1.0" line-rate="1.0" name="_GLOBAL__sub_I__ZN14WeatherStation11WeatherDataC2Ev" signature="">
 							<lines>
 								<line branch="false" hits="1" number="78"/>
@@ -4862,11 +4867,6 @@
 						<method branch-rate="1.0" line-rate="1.0" name="_Z41__static_initialization_and_destruction_0ii" signature="">
 							<lines>
 								<line branch="false" hits="1" number="78"/>
-							</lines>
-						</method>
-						<method branch-rate="0.0" line-rate="0.0" name="_GLOBAL__sub_D__ZN14WeatherStation11WeatherDataC2Ev" signature="">
-							<lines>
-								<line branch="false" hits="0" number="78"/>
 							</lines>
 						</method>
 					</methods>
