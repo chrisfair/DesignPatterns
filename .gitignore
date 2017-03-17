@@ -11,3 +11,5 @@ html/
 build/
 ../lcovDir/coverage.xml
 ../lcovDir/lcov.dat
+lcovHtml/
+gcovSources/

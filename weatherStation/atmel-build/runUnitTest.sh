@@ -45,7 +45,7 @@ lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "4.8.6" -o $DIRECTORY_FOR_LCO
 
 geninfo $DIRECTORY_FOR_LCOV/ -o $DIRECTORY_FOR_LCOV/lcov.dat
 cd $DIRECTORY_FOR_LCOV
-lcov_cobertura $DIRECTORY_FOR_LCOV/lcov.dat  
+lcov_cobertura -b $BASENAME $DIRECTORY_FOR_LCOV/lcov.dat -e catch,catch-test,arm-linu
 cp coverage.xml $1
 genhtml $DIRECTORY_FOR_LCOV/coverage.info.filtered -o $DIRECTORY_FOR_LCOV/lcovHtml
 
