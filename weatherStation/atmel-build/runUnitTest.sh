@@ -45,9 +45,9 @@ lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "$DIRECTORY_FOR_CODE/catch/*"
 lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "$DIRECTORY_FOR_CODE/catch-tests/*" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
 lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "4.8.6" -o $DIRECTORY_FOR_LCOV/coverage.info.filtered
 
-geninfo $DIRECTORY_FOR_LCOV/ -o $DIRECTORY_FOR_LCOV/lcov.dat
+geninfo $DIRECTORY_FOR_LCOV/  -o $DIRECTORY_FOR_LCOV/lcov.dat
 cd $DIRECTORY_FOR_LCOV
-lcov_cobertura -b $BASENAME_FOR_COBERTURA $DIRECTORY_FOR_LCOV/lcov.dat -e "*catch*","*catch-test*", "*4.8.2*" 
+lcov_cobertura $DIRECTORY_FOR_LCOV/lcov.dat -e *.h 
 cp coverage.xml $1
 genhtml $DIRECTORY_FOR_LCOV/coverage.info.filtered -o $DIRECTORY_FOR_LCOV/lcovHtml
 
