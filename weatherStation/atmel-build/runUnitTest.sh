@@ -29,6 +29,8 @@ rm -rf $DIRECTORY_FOR_LCOV/lcovHtml/*
 
 CATCH_TESTS_BASE=$SCRIPTPATH/CMakeFiles/CatchUnitTests.dir/
 BASENAME=$(find $CATCH_TESTS_BASE -type d -name "*weatherStation*")
+BASE_FOR_COBERTURA=$(find $CATCH_TESTS_BASE -type d -name "*src*")
+
 
 DESTINATION=$DIRECTORY_FOR_LCOV/gcovSources/$BASENAME
 
@@ -45,7 +47,7 @@ lcov -r $DIRECTORY_FOR_LCOV/coverage.info.filtered "4.8.6" -o $DIRECTORY_FOR_LCO
 
 geninfo $DIRECTORY_FOR_LCOV/ -o $DIRECTORY_FOR_LCOV/lcov.dat
 cd $DIRECTORY_FOR_LCOV
-lcov_cobertura -b $BASENAME $DIRECTORY_FOR_LCOV/lcov.dat -e catch,catch-test,arm-linu
+lcov_cobertura -b $BASENAME_FOR_COBERTURA $DIRECTORY_FOR_LCOV/lcov.dat -e catch,catch-test,arm-linu
 cp coverage.xml $1
 genhtml $DIRECTORY_FOR_LCOV/coverage.info.filtered -o $DIRECTORY_FOR_LCOV/lcovHtml
 
