@@ -9,3 +9,5 @@ build/Makefile
 build
 html/
 build/
+../lcovDir/coverage.xml
+../lcovDir/lcov.dat
