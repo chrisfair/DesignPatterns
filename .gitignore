@@ -13,3 +13,6 @@ build/
 ../lcovDir/lcov.dat
 lcovHtml/
 gcovSources/
+atmel-build/lcovDir/coverage.xml
+atmel-build/lcovDir/lcov.dat
+catchUnitTests.xml
