@@ -26,7 +26,7 @@ TEST_CASE ( "Forcast Display Unit Tests", "[forcastDisplay]" ) {
 
    const bool thatAllAveragesAreThirty = ((averageTemperature == 30) &&
                                           (averageHumidities == 30) &&
-                                          (averagePressures == 30));
+                                          (averagePressures == 33));
 
    const bool numberOfTemperatures = forcastDisplay->historicalTemperatures.size() == 5;
    const bool numberOfHumidities = forcastDisplay->historicalHumidities.size() == 5;
