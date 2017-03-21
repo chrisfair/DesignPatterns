@@ -84,8 +84,6 @@ namespace WeatherStation {
     std::string returnedString = "Not enough data for a trend yet.";
 
 
-    std::vector<float> subsetOfHistoricalOrdinal; 
-    std::vector<float> subsetOfHistoricalPressures;
 
     if (historicalOrdinal.size()>2)
 
