@@ -25,4 +25,6 @@ include(${CURRENT_SOURCE_DIR}/catch-tests/CMakeLists.txt)
 include(${CURRENT_SOURCE_DIR}/catch-tests-coverage/CMakeLists.txt)
 add_subdirectory(${CURRENT_SOURCE_DIR}/googletest)
 include(${CURRENT_SOURCE_DIR}/google-tests/CMakeLists.txt)
+include(${CURRENT_SOURCE_DIR}/google-tests-coverage/CMakeLists.txt)
+
 
