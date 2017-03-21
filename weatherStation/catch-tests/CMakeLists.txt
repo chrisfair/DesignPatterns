@@ -5,7 +5,6 @@ add_library(Catch INTERFACE)
 target_include_directories(Catch INTERFACE ${CURRENT_SOURCE_DIR}/catch)
 
 
-list (APPEND CMAKE_MODULE_PATH ${CURRENT_SOURCE_DIR}/CMakeModules)
 
 
 file (GLOB TEST_SOURCES_INITIAL ${CURRENT_SOURCE_DIR}/catch-tests/*.cpp) 
