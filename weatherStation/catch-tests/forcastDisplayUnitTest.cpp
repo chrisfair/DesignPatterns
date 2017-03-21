@@ -1,6 +1,3 @@
-#include<iostream>
-
-
 // Braket your tested classes with these defines / undefs
 // if you want to test your protected and private methods
 #define protected public
