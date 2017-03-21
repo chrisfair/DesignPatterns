@@ -3,7 +3,6 @@ set(CATCH_TEST_NAME "CatchUnitTests")
 add_library(Catch INTERFACE)
 
 target_include_directories(Catch INTERFACE ${CURRENT_SOURCE_DIR}/catch)
-set(CMAKE_MODULE_PATH ${CURRENT_SOURCE_DIR}/CMakeModules)
 
 
 list (APPEND CMAKE_MODULE_PATH ${CURRENT_SOURCE_DIR}/CMakeModules)
